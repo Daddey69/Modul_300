@@ -1,4 +1,4 @@
-<img align="left" width="80" height="80" src="./img/../../img/md-logo.png" alt="Github Logo">
+<img align="left" width="80" height="80" src="./img/../../img/md-logo.jpg" alt="MarkDown Logo">
 
 # MarkDown
 
