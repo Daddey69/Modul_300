@@ -15,6 +15,7 @@ Mehr Informationen können unter [Vagrant](https://www.vagrantup.com/) gefunden 
 * vagrant halt --> stoppt die VM
 * vagrant destroy --> Zerstört / löscht die VM
 
+Credits: Sean Caroppo
 
 
 
