@@ -1,6 +1,6 @@
 # Dokumentation Modul 300
-[Einführung](https://www.google.com)
-[01 Vagrant](https://www.google.com)
+1. [Einführung](https://www.google.com)
+2. [01 Vagrant](https://www.google.com)
 
 ## Einführung
 
