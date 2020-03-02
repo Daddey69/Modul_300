@@ -3,3 +3,11 @@
 # Vagrant Logo
 
 Here you'll find more information to my current use of Vagrant
+
+* vagrant Init --> Erstellt VM
+* vagrant up --> Startet VM
+* vagrant ssh --> Verbindet sich per SSH zur VM
+* vagrant status Zeigt Status der VM an
+* vagrant port --> Zeigt weitergeleitete Ports der VM an.
+* vagrant halt --> stoppt die VM
+* vagrant destroy --> Zerstört / löscht die VM
