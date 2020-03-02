@@ -19,7 +19,7 @@ This will be my documentation for the following 10 weeks in the Module 300 revol
 ### Virtualisierung
 
 ### Vagrant
-In the first part of our curiculum we got to explore the use cases and different possibilities of using Vagrant for the automatic creating of virtual machines.
+
 
 ### Versionierung
 
