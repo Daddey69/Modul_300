@@ -10,7 +10,7 @@ Mehr Informationen können unter [Vagrant](https://www.vagrantup.com/) gefunden 
 * vagrant Init --> Erstellt VM
 * vagrant up --> Startet VM
 * vagrant ssh --> Verbindet sich per SSH zur VM
-* vagrant status Zeigt Status der VM an
+* vagrant status --> Zeigt Status der VM an
 * vagrant port --> Zeigt weitergeleitete Ports der VM an.
 * vagrant halt --> stoppt die VM
 * vagrant destroy --> Zerstört / löscht die VM
