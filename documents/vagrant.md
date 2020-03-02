@@ -37,7 +37,7 @@ Die Funktionalitäten unser VMs können wir testen, indem wir die gehostete Webs
 <img align="center" width="" height="" src="./img/../../img/websrv-test.png" alt="Webserver Test">
 
 ### Netzwerkplan
-<img align="center" width="" height="" src="./img/../../img/Netzplan-Websrv.jpg" alt="Netzplan">
+<img align="center" width="" height="" src="./img/../../img/Netzplan-Websrv1.jpg" alt="Netzplan">
 
 
 
