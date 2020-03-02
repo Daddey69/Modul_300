@@ -2,11 +2,11 @@
 
 # MarkDown
 
-Here you'll find more information to my current use of Linux.
+Here you'll find more information to my current use of MarkDown.
 
 ## Befehle
-Die wichtigsten Befehle unter Linux, welche ich genutzt habe:
 "#" wird für Übertitel verwendet
+
 "1." wird für Auflistungen genutzt
 
 jegliche Bilder meiner Dokumente habe ich im Ordner img abgelegt.
