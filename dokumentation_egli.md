@@ -1,5 +1,10 @@
 # Dokumentation Modul 300
+[Einführung](https://www.google.com)
+[01 Vagrant](https://www.google.com)
 
 ## Einführung
 
-## Vagrant
+## 01 Vagrant
+In the first part of our curiculum we got to explore the use cases and different possibilities of using Vagrant for the automatic creating of virtual machines.
+
+text
