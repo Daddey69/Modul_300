@@ -23,9 +23,18 @@ Mehr Informationen können unter [Vagrant](https://www.vagrantup.com/) gefunden 
 > vagrant init ubuntu/xenial64
 >
 > vagrant up --provider virtualbox
-3. Nun läuft die VM diese kann auch über Virtualbox nun geöffnet werden.
+3. Nun läuft die VM diese kann auch über Virtualbox geöffnet werden.
 4. Um die VM zu terminieren wird folgender Befehl genutzt.
 > vagrant destroy -f
+
+## Funktionstest
+Die Funktionalitäten unser VMs können wir testen, indem wir die gehostete Website unseres Apache Webservers aufrufen. Dazu erstellen wir zuerst eine VM.
+
+1. Zuerst nehmen wir das forgefertigte Image aus dem /web Ordner
+2. Dieses starten wir auf
+> vagrant up
+3. Danach öffnen wir den Browser auf unserem Client und schauen ob wir über die ip und den port des Dienstes, die Website aufrufen können.
+<img align="center" width="" height="" src="./img/../../img/websrv-test.png" alt="Webserver Test">
 
 
 
