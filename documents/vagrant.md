@@ -21,6 +21,7 @@ Mehr Informationen können unter [Vagrant](https://www.vagrantup.com/) gefunden 
 > cd NewProject
 2. Nun muss ein neues Vagrantfile erstellt werden.
 > vagrant init ubuntu/xenial64
+>
 > vagrant up --provider virtualbox
 3. Nun läuft die VM diese kann auch über Virtualbox nun geöffnet werden.
 4. Um die VM zu terminieren wird folgender Befehl genutzt.
