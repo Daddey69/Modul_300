@@ -1,4 +1,4 @@
-<img align="left" width="80" height="80" src="(https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png)" alt="Vagrant Logo">
+<img align="left" width="80" height="80" src="./img/../../img/git-logo.png" alt="Github Logo">
 
 # Git
 
