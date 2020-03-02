@@ -10,6 +10,9 @@ Die wichtigsten Befehle unter Linux, welche ich genutzt habe:
 * cd --> Wechsel des Verzeichnisses
 * mkdir --> Erstellt ein Ordner
 
+## Theorie
+Linux ist ein opensource Betriebsystem, welches auf dem Linux Kernel basiert.
+
 
 
 [Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/dokumentation_egli.md)

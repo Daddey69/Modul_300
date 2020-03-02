@@ -1,9 +1,12 @@
 <img align="left" width="80" height="80" src="./img/../../img/vagrant-logo.png" alt="Vagrant Logo">
 
-# Vagrant Logo
+# Vagrant
 
-Here you'll find more information to my current use of Vagrant
+Vagrant ist eine Software, welche für das automatisierte erstellen von WMs genutzt wird. Vagrantfile lassen sich Konfigurationen an den VMs und Informationen für die Hypervisoren anpassen. Über das CMD, kann vagrant angesprochen werden und somit auch die VMs
 
+Mehr Informationen können unter [Vagrant](https://www.vagrantup.com/) gefunden werden.
+
+## Befehle
 * vagrant Init --> Erstellt VM
 * vagrant up --> Startet VM
 * vagrant ssh --> Verbindet sich per SSH zur VM
@@ -11,6 +14,8 @@ Here you'll find more information to my current use of Vagrant
 * vagrant port --> Zeigt weitergeleitete Ports der VM an.
 * vagrant halt --> stoppt die VM
 * vagrant destroy --> Zerstört / löscht die VM
+
+
 
 
 
