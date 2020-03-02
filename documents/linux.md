@@ -9,3 +9,7 @@ Die wichtigsten Befehle unter Linux, welche ich genutzt habe:
 * mkdir	-->	Erstellt ein Verzeichnis
 * cd --> Wechsel des Verzeichnisses
 * mkdir --> Erstellt ein Ordner
+
+
+
+[Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/dokumentation_egli.md)
