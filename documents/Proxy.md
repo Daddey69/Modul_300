@@ -9,7 +9,8 @@ Ein Proxy ins eine Kommunikationsschnittstelle in einem Netzwerk. Er arbeitet al
 ## Reverse Proxy
 Der Reverse-Proxy holt Ressourcen für einen Client aus dem Netzwerk. Dabei wird die wahre Adresse des internet systems dem externen System nicht zugänglich gemacht.
 
-
+### Konfiguration 
+<img align="center" width="" height="" src="./img/../../img/apache2_status.png" alt="apache2_status">
 
 
 [Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/README.md)
