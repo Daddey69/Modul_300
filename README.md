@@ -41,3 +41,4 @@ This will be my documentation for the following 10 weeks in the Module 300 revol
 ## Reflexion
 ### Montag, 09.03.2020
 Im ersten Teil konnte ich viel neues Wissen im Bereich GIT und Vagrant aneignen. Dieses habe ich in den einzelnen Kapitel dokumentiert. Zudem konnte ich mein bestehendes Wissen von linux Betriebssystemen stark auffrischen, ebenso auch das allgemeine Arbeiten mit einer Shell. Hinzu kamen die vielen neuen Befehle im Bezug auf die Vagrant-Files.
+Ich bin zufrieden mit meinem Arbeitstempo. Die arbeit welche ich bis jetzt leisten konnte stützt sich stark auf die Unterlagen welche wir erhalten haben, jedoch sollte dies soweit ich das verstanden habe, auch der Sinn sein. Ich möchte mein Tempo wie auch die Qualität meiner Arbeit beibehalten wenn nicht auch verbessern.
