@@ -31,12 +31,14 @@ Im Bereich von Vagrant hatte ich bis zu diesem Modul kein Vorwissen. Ich habe mi
 > sudo apt-get install libapache2-mod-proxy-html
 > 
 > sudo apt-get install libxm12-dev -y
+> 
 >
 > sudo a2enmod proxy
 > 
 > sudo a2enmod proxy_html
 > 
 > sudo a2enmod proxy_http
+> 
 > 
 > sudo service apache2 restart
 > 
