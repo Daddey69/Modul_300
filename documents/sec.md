@@ -22,7 +22,14 @@ Der Reverse-Proxy holt Ressourcen für einen Client aus dem Netzwerk. Dabei wird
 #### Konfiguration 
 <img align="center" width="" height="" src="./img/../../img/apache2_status.PNG" alt="apache2_status">
 
-## Rechtevergabe
+## Benutzer & Rechte
+
+| Benutzername  | Funktion                                             |
+| ------------- | ---------------------------------------------------- | 
+| `root`        | Der Systemadministrator unter Linux                  |
+| `nobody`      | Wird von Prozessen als Benutzererkennung verwendet, wenn nur ein Minimum an Rechten vergeben werden soll  |
+| `cupsys`      | Benutzer des Druckdienstes CUPS                      |
+| `www-data`    | Benutzer des Webservers Apache                       |
 
 ## SSH-Tunnel
 
