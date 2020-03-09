@@ -14,10 +14,10 @@ Wie ich in meinem aktuellen UeK lernen konnte, gibt es bei den Hypervisoren zwei
 <img align="center" width="" height="" src="./img/../../img/hypervisor.png" alt="Hyper Visor">
 
 #### Typ1
-
+Bei einem Hypervisor des Typ 1 wird alles von der Hardware bis zur Software virtualisiert. Dabei wird der Hypervisor direkt auf der physischen Hardware installiert.
 
 #### Typ2
-
+Bei einem hypervisor des Typ 2 wird der Hypervisor über dem OS installiert. Dies bietet weniger Sicherheit, da weniger Layers zwischen der effektiven Hardware und der VM sind und dadurch ein Ausbruch aus dem COntainer sich wesentlich einfacher gestaltet.
 
 
 
