@@ -3,7 +3,7 @@
 # Security
 
 ### Wissenstand
-Im Bereich Security, habe ich verhältnissmäsig zur Verantwortung welche ich im allgemeine Berufsaltag trage noch relativ wenig gelernt. Aktuell beschränkt sich mein Wissen noch auf einfache Firewall Rules und Konfigurationen von Clients sowie Subentting
+Im Bereich Security, habe ich verhältnissmäsig zur Verantwortung welche ich im allgemeine Berufsaltag trage noch relativ wenig gelernt. Aktuell beschränkt sich mein Wissen noch auf einfache Firewall Rules und Konfigurationen von Clients sowie Subentting.
 
 ## Firewall & Rules
 Hier sieht man die erstellten Firewall Rules. Hierbei habe ich denn Zugriff per SSH nur auf meinen eigenen Client beschränkt.
