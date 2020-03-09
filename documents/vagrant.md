@@ -15,6 +15,9 @@ Mehr Informationen können unter [Vagrant](https://www.vagrantup.com/) gefunden 
 * vagrant halt --> stoppt die VM
 * vagrant destroy --> Zerstört / löscht die VM 
 
+## Wissenstand
+Im Bereich von Vagrant hatte ich bis zu diesem Modul kein Vorwissen. Ich habe mich im Büro schon mit autoamtisierung von VMs auseinandergesetzt, jedoch habe ich dies hauptsächlich auf Kubernetis und Docker gemacht, da diese hauptsächlich im Windows Bereich verwendet werden.
+
 ## Vagrant VM einrichten
 1. zuerst muss ein Ordner erstellt werden.
 > mkdir newProject
