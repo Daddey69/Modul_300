@@ -29,15 +29,21 @@ Im Bereich von Vagrant hatte ich bis zu diesem Modul kein Vorwissen. Ich habe mi
 > sudo apt-get update
 >
 > sudo apt-get install libapache2-mod-proxy-html
+> 
 > sudo apt-get install libxm12-dev -y
 >
 > sudo a2enmod proxy
+> 
 > sudo a2enmod proxy_html
+> 
 > sudo a2enmod proxy_http
 > 
 > sudo service apache2 restart
+> 
 > SHELL
-4. Augestartet wird die VM mit dem folgenden Befehl:
+
+
+1. Augestartet wird die VM mit dem folgenden Befehl:
 > vagrant up --provider virtualbox
 5. Nun läuft die VM diese kann auch über Virtualbox geöffnet werden.
 6. Um die VM zu terminieren wird folgender Befehl genutzt.
