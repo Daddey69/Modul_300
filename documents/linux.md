@@ -2,8 +2,6 @@
 
 # Linux
 
-Here you'll find more information to my current use of Linux.
-
 ## Befehle
 Die wichtigsten Befehle unter Linux, welche ich genutzt habe:
 * mkdir	-->	Erstellt ein Verzeichnis
@@ -15,4 +13,4 @@ Linux ist ein opensource Betriebsystem, welches auf dem Linux Kernel basiert.
 
 
 
-[Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/dokumentation_egli.md)
+[Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/README.md)

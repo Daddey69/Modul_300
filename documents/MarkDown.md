@@ -2,8 +2,6 @@
 
 # MarkDown
 
-Here you'll find more information to my current use of MarkDown.
-
 ## Befehle
 "#" wird für Übertitel verwendet
 
@@ -13,4 +11,4 @@ jegliche Bilder meiner Dokumente habe ich im Ordner img abgelegt.
 
 
 
-[Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/dokumentation_egli.md)
+[Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/README.md)

@@ -12,4 +12,4 @@ Der Reverse-Proxy holt Ressourcen für einen Client aus dem Netzwerk. Dabei wird
 
 
 
-[Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/dokumentation_egli.md)
+[Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/README.md)
