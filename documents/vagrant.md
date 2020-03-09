@@ -39,6 +39,9 @@ Die Funktionalitäten unser VMs können wir testen, indem wir die gehostete Webs
 3. Danach öffnen wir den Browser auf unserem Client und schauen ob wir über die ip und den port des Dienstes, die Website aufrufen können.
 <img align="center" width="" height="" src="./img/../../img/websrv-test.png" alt="Webserver Test">
 
+<img align="center" width="" height="" src="./img/../../img/apache_code.png" alt="Apache Code">
+
+
 ### Netzwerkplan
 <img align="center" width="" height="" src="./img/../../img/Netzplan-Websrv1.jpg" alt="Netzplan">
 

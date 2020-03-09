@@ -9,11 +9,14 @@ config.vm.provision "shell", inline: <<-SHELL
   # Packages vom lokalen Server holen
   # sudo sed -i -e"1i deb {{config.server}}/apt-mirror/mirror/archive.ubuntu.com/ubuntu xenial main restricted" /etc/apt/sources.list 
   sudo apt-get update
-  sudo apt-get -y install apache2
+
+  sudo apt-get install libapache2-mod-proxy-html
   sudo apt-get install libxm12-dev -y
+
   sudo a2enmod proxy
   sudo a2enmod proxy_html
   sudo a2enmod proxy_http 
+
   sudo service apache2 restart
 SHELL
 end
