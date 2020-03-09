@@ -21,3 +21,6 @@ Falls dieser belegt ist, wird automatisch eine Alternative gewählt.
 ### Tests
 
 * `index.html` (Startdatei Apache Web Server) Datei in diesem Verzeichnis editieren und Änderungen via [http://localhost:8080](http://localhost:8080) überprüfen. 
+
+### Konfiguration 
+<img align="center" width="" height="" src="./img/../../img/apache2_status.png" alt="apache2_status">
