@@ -25,24 +25,22 @@ Im Bereich von Vagrant hatte ich bis zu diesem Modul kein Vorwissen. Ich habe mi
 2. Nun muss ein neues Vagrantfile erstellt werden.
 > vagrant init ubuntu/xenial64
 3. Im Vagrant File müssen folgende Zeilen hinzugefügt werden.
-
-``` config.vm.provision "shell", inline: <<-SHELL ```
-
-``` sudo apt-get update ```
-
-``` sudo apt-get install libapache2-mod-proxy-html ```
-
-``` sudo apt-get install libxm12-dev -y ```
-
-``` sudo a2enmod proxy ```
-
-``` sudo a2enmod proxy_html ```
-
-``` sudo a2enmod proxy_http ```
-
-``` sudo service apache2 restart ```
-
-``` SHELL ```
+> config.vm.provision "shell", inline: <<-SHELL
+> sudo apt-get update
+>
+> sudo apt-get install libapache2-mod-proxy-html
+> 
+> sudo apt-get install libxm12-dev -y
+> 
+> sudo a2enmod proxy
+> 
+> sudo a2enmod proxy_html
+> 
+> sudo a2enmod proxy_http
+> 
+> sudo service apache2 restart
+> 
+> SHELL
 
 
 1. Augestartet wird die VM mit dem folgenden Befehl:
