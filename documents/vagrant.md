@@ -24,11 +24,26 @@ Im Bereich von Vagrant hatte ich bis zu diesem Modul kein Vorwissen. Ich habe mi
 > cd NewProject
 2. Nun muss ein neues Vagrantfile erstellt werden.
 > vagrant init ubuntu/xenial64
+3. Im Vagrant File müssen folgende Zeilen hinzugefügt werden.
+> config.vm.provision "shell", inline: <<-SHELL
+> sudo apt-get update
 >
+> sudo apt-get install libapache2-mod-proxy-html
+> sudo apt-get install libxm12-dev -y
+>
+> sudo a2enmod proxy
+> sudo a2enmod proxy_html
+> sudo a2enmod proxy_http
+> 
+> sudo service apache2 restart
+> SHELL
+4. Augestartet wird die VM mit dem folgenden Befehl:
 > vagrant up --provider virtualbox
-3. Nun läuft die VM diese kann auch über Virtualbox geöffnet werden.
-4. Um die VM zu terminieren wird folgender Befehl genutzt.
+5. Nun läuft die VM diese kann auch über Virtualbox geöffnet werden.
+6. Um die VM zu terminieren wird folgender Befehl genutzt.
 > vagrant destroy -f
+
+<img align="center" width="" height="" src="./img/../../img/apache_code.png" alt="Apache Code">
 
 ## Funktionstest
 Die Funktionalitäten unser VMs können wir testen, indem wir die gehostete Website unseres Apache Webservers aufrufen. Dazu erstellen wir zuerst eine VM.
@@ -38,8 +53,6 @@ Die Funktionalitäten unser VMs können wir testen, indem wir die gehostete Webs
 > vagrant up
 3. Danach öffnen wir den Browser auf unserem Client und schauen ob wir über die ip und den port des Dienstes, die Website aufrufen können.
 <img align="center" width="" height="" src="./img/../../img/websrv-test.png" alt="Webserver Test">
-
-<img align="center" width="" height="" src="./img/../../img/apache_code.png" alt="Apache Code">
 
 
 ### Netzwerkplan
