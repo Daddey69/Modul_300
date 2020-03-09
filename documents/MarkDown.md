@@ -9,6 +9,9 @@
 
 jegliche Bilder meiner Dokumente habe ich im Ordner img abgelegt.
 
+## Wissenstand
+MarkDown bis jetzt noch nicht verwendet. Sehr schnell gelernt, viel einfach copy/paste trotzdem funktioniert ziemlich gut. Soweit so gut.
+
 
 
 [Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/README.md)
