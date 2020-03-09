@@ -31,6 +31,10 @@ Der Reverse-Proxy holt Ressourcen für einen Client aus dem Netzwerk. Dabei wird
 | `cupsys`      | Benutzer des Druckdienstes CUPS                      |
 | `www-data`    | Benutzer des Webservers Apache                       |
 
+Die Benutzer kann man in der Datei `/etc/passwd` finden. zusätzlich werden die Passwörter in der Datei `/etc/shadow` gespeichert.
+
+Der Systemadministrator hat kein Passwort daher ist eine Anmeldung mit diesem Account auch nicht möglich. Falls root berechtigungen für das Ausführen eines befehls nötig sind, so können diese mit dem zusatz von "sudo" genutzt werden.
+
 ## SSH-Tunnel
 
 ### Testing
