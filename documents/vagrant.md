@@ -49,7 +49,7 @@ Im Bereich von Vagrant hatte ich bis zu diesem Modul kein Vorwissen. Ich habe mi
 6. Um die VM zu terminieren wird folgender Befehl genutzt.
 > vagrant destroy -f
 
-<img align="center" width="" height="" src="./img/../../img/apache_code.png" alt="Apache Code">
+<img align="center" width="" height="" src="./img/../../img/apache_code1.PNG" alt="Apache Code">
 
 ## Funktionstest
 Die Funktionalitäten unser VMs können wir testen, indem wir die gehostete Website unseres Apache Webservers aufrufen. Dazu erstellen wir zuerst eine VM.
