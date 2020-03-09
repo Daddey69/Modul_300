@@ -1,6 +1,6 @@
 <img align="left" width="80" height="80" src="./img/../../img/virt-logo.png" alt="Virtualisierung">
 
-# Git / Versionierung
+# Virtualisierung
 
 ## Befehle
 
