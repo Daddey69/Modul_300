@@ -15,6 +15,8 @@ cd /vangrant_data/
 
 #### Firewall & Rules
 Hier sieht man die erstellten Firewall Rules. Hierbei habe ich denn Zugriff per SSH nur auf meinen eigenen Client beschränkt.
+
+
 <img align="center" width="" height="" src="./img/../../img/ufw_rules.PNG" alt="Firewall Rules">
 
 #### Proxy / Reverse Proxy
