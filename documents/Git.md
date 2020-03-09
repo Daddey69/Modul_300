@@ -1,6 +1,6 @@
 <img align="left" width="80" height="80" src="./img/../../img/git-logo.png" alt="Github Logo">
 
-# Git
+# Git / Versionierung
 
 ## Befehle
 

@@ -6,8 +6,7 @@
     - [Linux](#linux)
     - [Virtualisierung](#virtualisierung)
     - [Vagrant](#vagrant)
-    - [Versionierung](#versionierung)
-    - [Git](#git)
+    - [Git / Versionierung](#git--versionierung)
     - [Mark Down](#mark-down)
     - [Systemsicherheit](#systemsicherheit)
   - [Vergleich Vorwissen - Wissenzuwachs](#vergleich-vorwissen---wissenzuwachs)
@@ -28,9 +27,7 @@ This will be my documentation for the following 10 weeks in the Module 300 revol
 ### Vagrant
 [Upload](https://github.com/Daddey69/Modul_300/blob/master/documents/vagrant.md)
 
-### Versionierung
-
-### Git
+### Git / Versionierung
 [Upload](https://github.com/Daddey69/Modul_300/blob/master/documents/Git.md)
 
 ### Mark Down
