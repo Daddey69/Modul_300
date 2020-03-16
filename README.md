@@ -1,15 +1,8 @@
 # Dokumentation Modul 300
 - [Dokumentation Modul 300](#dokumentation-modul-300)
   - [Einführung](#einf%c3%bchrung)
+  - [Links](#links)
   - [Lernbeurteilung 02](#lernbeurteilung-02)
-  - [Knowledge](#knowledge)
-    - [Linux](#linux)
-    - [Virtualisierung](#virtualisierung)
-    - [Vagrant](#vagrant)
-    - [Git / Versionierung](#git--versionierung)
-    - [Mark Down](#mark-down)
-    - [Systemsicherheit](#systemsicherheit)
-  - [Vergleich Vorwissen - Wissenzuwachs](#vergleich-vorwissen---wissenzuwachs)
   - [Reflexion](#reflexion)
     - [Montag, 09.03.2020](#montag-09032020)
     - [Montag, 16.03.2020](#montag-16032020)
@@ -17,30 +10,25 @@
 ## Einführung
 This will be my documentation for the following 10 weeks in the Module 300 revolving around virtual machines. During this module we will be mainly working with Vagrant and Docker. In adition I'll be documenting everthing as a MarkDown file.
 
+## Links
+Hier finden sie die einzelnen Seiten zu den unterschliedlichen Themen, welche wir im Verlaufe dieses Moduls bearbeitet haben.
+
 ## Lernbeurteilung 02
-[Upload](https://github.com/Daddey69/Modul_300/tree/master/_LB02)
+[Lernbeurteilung 02](https://github.com/Daddey69/Modul_300/tree/master/_LB02)
 
-## Knowledge
-### Linux
-[Upload](https://github.com/Daddey69/Modul_300/blob/master/documents/linux.md)
+[Linux](https://github.com/Daddey69/Modul_300/blob/master/documents/linux.md)
 
-### Virtualisierung
-[Upload](https://github.com/Daddey69/Modul_300/blob/master/documents/virt.md)
+[Virtualisierung](https://github.com/Daddey69/Modul_300/blob/master/documents/virt.md)
 
-### Vagrant
-[Upload](https://github.com/Daddey69/Modul_300/blob/master/documents/vagrant.md)
+[Vagrant](https://github.com/Daddey69/Modul_300/blob/master/documents/vagrant.md)
 
-### Git / Versionierung
-[Upload](https://github.com/Daddey69/Modul_300/blob/master/documents/Git.md)
+[Git / Versionierung](https://github.com/Daddey69/Modul_300/blob/master/documents/Git.md)
 
-### Mark Down
-[Upload](https://github.com/Daddey69/Modul_300/blob/master/documents/MarkDown.md)
+[MarkDown](https://github.com/Daddey69/Modul_300/blob/master/documents/MarkDown.md)
 
-### Systemsicherheit
-[Upload](https://github.com/Daddey69/Modul_300/blob/master/documents/sec.md)
+[Systemsicherheit](https://github.com/Daddey69/Modul_300/blob/master/documents/sec.md)
 
-## Vergleich Vorwissen - Wissenzuwachs
-[Upload](https://github.com/nickegli/Modul_300/blob/master/documents/knowledge.md)
+[Vergleich Vorwissen - Wissenzuwachs](https://github.com/nickegli/Modul_300/blob/master/documents/knowledge.md)
 
 
 ## Reflexion
