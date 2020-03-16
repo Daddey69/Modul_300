@@ -39,6 +39,7 @@ Der Systemadministrator hat kein Passwort daher ist eine Anmeldung mit diesem Ac
 
 ### Testing
 Die nachfolgenden Tests, wurden durch Frau Schönenberger durchgeführt, wobei Sie kein vorwissen über die Funktionalität un die Architektur meiner vorliegenden Umgebung hatte.
+
 <img align="center" width="" height="" src="./img/../../img/testprotokoll.PNG" alt="Testprotokol">
 
 [Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/README.md)
