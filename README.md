@@ -12,6 +12,7 @@
   - [Vergleich Vorwissen - Wissenzuwachs](#vergleich-vorwissen---wissenzuwachs)
   - [Reflexion](#reflexion)
     - [Montag, 09.03.2020](#montag-09032020)
+    - [Montag, 16.03.2020](#montag-16032020)
 
 ## Einführung
 This will be my documentation for the following 10 weeks in the Module 300 revolving around virtual machines. During this module we will be mainly working with Vagrant and Docker. In adition I'll be documenting everthing as a MarkDown file.
@@ -48,3 +49,6 @@ This will be my documentation for the following 10 weeks in the Module 300 revol
 ### Montag, 09.03.2020
 Im ersten Teil konnte ich viel neues Wissen im Bereich GIT und Vagrant aneignen. Dieses habe ich in den einzelnen Kapitel dokumentiert. Zudem konnte ich mein bestehendes Wissen von linux Betriebssystemen stark auffrischen, ebenso auch das allgemeine Arbeiten mit einer Shell. Hinzu kamen die vielen neuen Befehle im Bezug auf die Vagrant-Files.
 Ich bin zufrieden mit meinem Arbeitstempo. Die arbeit welche ich bis jetzt leisten konnte stützt sich stark auf die Unterlagen welche wir erhalten haben, jedoch sollte dies soweit ich das verstanden habe, auch der Sinn sein. Ich möchte mein Tempo wie auch die Qualität meiner Arbeit beibehalten wenn nicht auch verbessern.
+
+### Montag, 16.03.2020
+Heute konnte ich im Homeoffice nochmals alle Punkte der bewqertung überfliegen und sicherstellen, dass ich einen Grossteil der Punkte erfüllt habe. Da dieses Raster sehr offe ngeschrieben ist, habe ich mich genau daran gehalten und nur dies was erwünscht war gemacht, dadurch werde ich wohl einen Punkt im Bezug auf die Kreativität und Komplexität verlieren, trotzdem werden ich mehr als 80% der Punkte erfüllt haben. Ich bin mir noch nicht so sicher, wie ich die Abgabe genau gestallten möchte, da wir dies nun ja via Video-Call machen werden. Aber mal schauen wie das wird.
