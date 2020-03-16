@@ -8,7 +8,6 @@
 
 ## Lernbeurteilung 02
 Alle Inhalte zur LB02 finden sie im Verlauf dieses Dokuments und den weiteren verlinkten Inhalten.
-
 [Lernbeurteilung 02](https://github.com/Daddey69/Modul_300/tree/master/_LB02)
 
 ## Wissen
