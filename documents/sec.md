@@ -38,6 +38,6 @@ Der Systemadministrator hat kein Passwort daher ist eine Anmeldung mit diesem Ac
 ## SSH-Tunnel
 
 ### Testing
-<img align="center" width="" height="" src="./img/../../img/testprot.PNG" alt="Testprotokol">
+<img align="center" width="" height="" src="./img/../../img/testprotokoll.PNG" alt="Testprotokol">
 
 [Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/README.md)
