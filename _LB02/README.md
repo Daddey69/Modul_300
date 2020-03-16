@@ -9,7 +9,7 @@ ll /
 cd /vangrant_data/
 
 ### Netzwerkplan
-<img align="center" width="" height="" src="./img/../../img/Netzplan1.jpg" alt="Netzplan">
+<img align="center" width="" height="" src="./img/../../img/Netzplan-Websrv2.jpg" alt="Netzplan">
 
 ### Sicherheitsaspekte
 [Upload](https://github.com/Daddey69/Modul_300/blob/master/documents/sec.md)
