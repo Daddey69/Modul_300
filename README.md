@@ -40,8 +40,7 @@ This will be my documentation for the following 10 weeks in the Module 300 revol
 [Upload](https://github.com/Daddey69/Modul_300/blob/master/documents/sec.md)
 
 ## Vergleich Vorwissen - Wissenzuwachs
-[Upload](https://github.com/Daddey69/Modul_300/blob/master/documents/knowledge.md)
-
+[Upload](https://github.com/nickegli/Modul_300/blob/master/documents/knowledge.md)
 
 
 ## Reflexion
