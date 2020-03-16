@@ -1,4 +1,4 @@
-<img align="left" width="80" height="80" src="./img/../../img/virt-logo.png" alt="Virtualisierung">
+<img align="left" width="80" height="80" src="./img/../../img/knowledge-logo.png" alt="Wissen">
 
 # Vergleich Vorwissen - Wissenzuwachs
 ## Linux
