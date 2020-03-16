@@ -1,16 +1,13 @@
 # Dokumentation Modul 300
 - [Dokumentation Modul 300](#dokumentation-modul-300)
-  - [Einführung](#einf%c3%bchrung)
   - [Lernbeurteilung 02](#lernbeurteilung-02)
   - [Wissen](#wissen)
   - [Reflexion](#reflexion)
     - [Montag, 09.03.2020](#montag-09032020)
     - [Montag, 16.03.2020](#montag-16032020)
 
-## Einführung
-This will be my documentation for the following 10 weeks in the Module 300 revolving around virtual machines. During this module we will be mainly working with Vagrant and Docker. In adition I'll be documenting everthing as a MarkDown file.
-
 ## Lernbeurteilung 02
+Alle Inhalte zur LB02 finden sie im Verlauf dieses Dokuments und den weiteren verlinkten Inhalten.
 [Lernbeurteilung 02](https://github.com/Daddey69/Modul_300/tree/master/_LB02)
 
 ## Wissen

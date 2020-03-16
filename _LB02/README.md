@@ -5,8 +5,7 @@
 
 ## Umsetzung
 ### Wichtig
-ll /
-cd /vangrant_data/
+
 
 ### Netzwerkplan
 <img align="center" width="" height="" src="./img/../../img/Netzplan-Websrv2.jpg" alt="Netzplan">
