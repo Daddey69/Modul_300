@@ -24,7 +24,7 @@ Der Reverse-Proxy holt Ressourcen für einen Client aus dem Netzwerk. Dabei wird
 
 ## Benutzer & Rechte
 
-Linux besitzt unterschiedliche Arten von Benutzer, dabei muss man UNterscheiden zwischen dennen, welche einer richtigen Person zugeweisen sind und diese die einem Dienst gehören.
+Linux besitzt unterschiedliche Arten von Benutzer, dabei muss man Unterscheiden zwischen dennen, welche einer richtigen Person zugeweisen sind und diese die einem Dienst gehören.
 
 | Benutzername  | Funktion                                             |
 | ------------- | ---------------------------------------------------- | 
@@ -46,12 +46,36 @@ $ sudo service apache2 start
 
 Es ist auch möglich das gesammte Terminal in den "sudo-modus" zu versetzen, dazu muss man im Terminal einfach `sudo su` eingeben.
 
+## Gruppen
+Unter Linux ist es möglich die Benutzer einer oder mehreren Gruppen zuzuweisen um ihnen somit auch die Rechte zuzuteilen.
+
+Hier eine kleine Auflistung der meistverwendeten Gruppen:
+
+| Gruppenname   | Funktion                                             |
+| ------------- | ---------------------------------------------------- | 
+| `sudo`        | Administrator-Aufgaben mit Sudo ausführen            |
+| `adm`         | Erlaubt Einsicht in Logdateien                       |
+| `audio`       | verwendung von Audio-Geräten                         |
+| `cdrom`       | CD-ROM Laufwerk benutzung                            |
+| `dialout`     | Serielle Geräte verwenden                            |
+| `sambashare`  | Mit Samba Usershares einrichten                      |
+| `lpadmin`     | Drucker unter CUPS einrichten                        |
+
+
+### Terminal
+```
+$ sudo adduser BENUTZERNAME --ingroup GRUPPENNAME
+$ sudo usermod  -aG GRUPPENNAME BENUTZERNAME
+$ sudo usermod -g GRUPPENNAME BENUTZERNAME
+$ sudo deluser BENUTZERNAME GRUPENNAME
+$ sudo addgroup GRUPPENNAME
+```
 
 
 
 ## SSH-Tunnel
 
-### Testing
+## Testing
 Die nachfolgenden Tests, wurden durch Frau Schönenberger durchgeführt, wobei Sie kein vorwissen über die Funktionalität un die Architektur meiner vorliegenden Umgebung hatte.
 
 <img align="center" width="" height="" src="./img/../../img/testprotokoll.PNG" alt="Testprotokol">
