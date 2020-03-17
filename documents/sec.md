@@ -46,6 +46,13 @@ $ sudo service apache2 start
 
 Es ist auch möglich das gesammte Terminal in den "sudo-modus" zu versetzen, dazu muss man im Terminal einfach `sudo su` eingeben.
 
+### Terminal
+```
+$ sudo adduser BENUTZERNAME
+$ sudo deluser BENUTZERNAME
+$ sudo deluser --remove-home BENUTZERNAME
+```
+
 ## Gruppen
 Unter Linux ist es möglich die Benutzer einer oder mehreren Gruppen zuzuweisen um ihnen somit auch die Rechte zuzuteilen.
 
