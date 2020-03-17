@@ -1,4 +1,4 @@
-<img align="left" width="80" height="80" src="./img/../../img/5686.jpg" alt="Apache2 Logo">
+<img align="left" width="80" height="80" src="../img/../../img/5686.jpg" alt="Apache2 Logo">
 
 # ReverseProxy & Proxy mit Apache2
 Im folgenden Vagrant-File können Sie meine installation eines Apache2 Servers sehen, diesen habe ich mit weiteren Paketen zu einem Funkionsfähigen ReverseProxy umgebaut. Leider ist mir jedoch kein konkreter Testfall dazu in den Sinn gekommen, da ich keine Zeit hatte um mich tiefer mit dieser Thematik auseinander zu setzten.
