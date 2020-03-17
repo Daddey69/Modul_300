@@ -2,15 +2,16 @@ Vagrant.configure(2) do |config|
   config.vm.box = "ubuntu/xenial64"
   config.vm.hostname = "mailserver"
   config.vm.network "private_network", ip: "192.168.10.150/24", virtualbox__intnet: "LAN"
-  config.vm.network "forwarded_port", guest:80, host:8080, auto_correct: true
-  config.vm.synced_folder ".", "/var/www/html"  
+  config.vm.network "forwarded_port", guest:80, host:8080, auto_correct: true  
   config.vm.provider "virtualbox" do |vb|
 vb.memory = "512"  
 end
 config.vm.provision "shell", inline: <<-SHELL
 sudo apt-get update
 
-sudo apt-get install postfix -y
+sudo apt-get install exim4-deamon-heavy -y
+sudo sed -i "s/dc_eximconfig_configtype='local'/dc_eximconfig_configtype='internet'/g" /etc/exim4/update-exim4.conf.conf
+# sudo sed -i "s/
 
 SHELL
 end
