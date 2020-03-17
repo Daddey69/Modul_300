@@ -24,6 +24,8 @@ Der Reverse-Proxy holt Ressourcen für einen Client aus dem Netzwerk. Dabei wird
 
 ## Benutzer & Rechte
 
+Linux besitzt unterschiedliche Arten von Benutzer, dabei muss man UNterscheiden zwischen dennen, welche einer richtigen Person zugeweisen sind und diese die einem Dienst gehören.
+
 | Benutzername  | Funktion                                             |
 | ------------- | ---------------------------------------------------- | 
 | `root`        | Der Systemadministrator unter Linux                  |
@@ -34,6 +36,15 @@ Der Reverse-Proxy holt Ressourcen für einen Client aus dem Netzwerk. Dabei wird
 Die Benutzer kann man in der Datei `/etc/passwd` finden. zusätzlich werden die Passwörter in der Datei `/etc/shadow` gespeichert.
 
 Der Systemadministrator hat kein Passwort daher ist eine Anmeldung mit diesem Account auch nicht möglich. Falls root berechtigungen für das Ausführen eines befehls nötig sind, so können diese mit dem zusatz von "sudo" genutzt werden.
+
+Alle Befehle, welche erhöhte Berechtigungen eines Benutzers benötigen, sollten mit `sudo` ausgeführt werden.
+> sudo apt-get install apache2
+> sudo service apache2 start
+
+Es ist auch möglich das gesammte Terminal in den "sudo-modus" zu versetzen, dazu muss man im Terminal einfach `sudo su` eingeben.
+
+
+
 
 ## SSH-Tunnel
 
