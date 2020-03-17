@@ -9,7 +9,7 @@ end
 config.vm.provision "shell", inline: <<-SHELL
 sudo apt-get update
 
-sudo apt-get install exim4-deamon-heavy -y
+sudo apt-get install exim4 -y
 sudo sed -i "s/dc_eximconfig_configtype='local'/dc_eximconfig_configtype='internet'/g" /etc/exim4/update-exim4.conf.conf
 # sudo sed -i "s/
 
