@@ -38,8 +38,8 @@ Die Benutzer kann man in der Datei `/etc/passwd` finden. zusätzlich werden die 
 Der Systemadministrator hat kein Passwort daher ist eine Anmeldung mit diesem Account auch nicht möglich. Falls root berechtigungen für das Ausführen eines befehls nötig sind, so können diese mit dem zusatz von "sudo" genutzt werden.
 
 Alle Befehle, welche erhöhte Berechtigungen eines Benutzers benötigen, sollten mit `sudo` ausgeführt werden.
-```sudo apt-get install apache2```
-```sudo service apache2 start```
+$ sudo apt-get install apache2
+$ sudo service apache2 start
 
 Es ist auch möglich das gesammte Terminal in den "sudo-modus" zu versetzen, dazu muss man im Terminal einfach `sudo su` eingeben.
 
