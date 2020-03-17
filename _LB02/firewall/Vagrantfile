@@ -7,12 +7,12 @@
   end
   config.vm.provision "shell", inline: <<-SHELL
   #sudo apt-get install ufw
-  sudo apt-get update
-  sudo apt-get install ufw -y
+   sudo apt-get update
+   sudo apt-get install ufw -y
 
   #Rules erstellen
-  sudo ufw all 80/tcp
-  sudo ufw allow from any to any port 22
+  # sudo ufw all 80/tcp
+  # sudo ufw allow from any to any port 22
 
   #Firewall aktivieren
   sudo ufw enable
