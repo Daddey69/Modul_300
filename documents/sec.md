@@ -39,6 +39,7 @@ Der Systemadministrator hat kein Passwort daher ist eine Anmeldung mit diesem Ac
 
 Alle Befehle, welche erhöhte Berechtigungen eines Benutzers benötigen, sollten mit `sudo` ausgeführt werden.
 > sudo apt-get install apache2
+> 
 > sudo service apache2 start
 
 Es ist auch möglich das gesammte Terminal in den "sudo-modus" zu versetzen, dazu muss man im Terminal einfach `sudo su` eingeben.
