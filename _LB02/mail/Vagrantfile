@@ -16,7 +16,23 @@ sudo sed -i "s/dc_local_interfaces='127.0.0.1 ; ::1'/dc_local_interfaces=''/g" /
 
 bash /usr/share/doc/exim4-base/examples/exim-gencert
 
+echo "MAIN_TLS_ENABLE=yes" >>  /etc/exim4/exim4.conf.template
+
+# After every Config Service needs to be restarted
+update-exim4.conf
+service exim4 restart
+
+
+
 # sudo sed -i "s/
 
 SHELL
 end
+
+# exim -v postmaster@m300domain.com
+# From: user@m300domain.com
+# To: postmaster@m300domain.com
+# Subject: Testing Exim
+#
+# This is a test message.
+# ^D
