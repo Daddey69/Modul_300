@@ -11,6 +11,11 @@ sudo apt-get update
 
 sudo apt-get install exim4 -y
 sudo sed -i "s/dc_eximconfig_configtype='local'/dc_eximconfig_configtype='internet'/g" /etc/exim4/update-exim4.conf.conf
+sudo sed -i "s/dc_other_hostnames='mailserver'/dc_other_hostnames='m300domain.com'/g" /etc/exim4/update-exim4.conf.conf
+sudo sed -i "s/dc_local_interfaces='127.0.0.1 ; ::1'/dc_local_interfaces=''/g" /etc/exim4/update-exim4.conf.conf
+
+bash /usr/share/doc/exim4-base/examples/exim-gencert
+
 # sudo sed -i "s/
 
 SHELL
