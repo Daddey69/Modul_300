@@ -8,22 +8,7 @@ Mehr Informationen können unter [Docker Hub](https://hub.docker.com/) gefunden 
 ## Meine LB03
 
 ## Befehle
-Bei den Befehlen muss man immer UNterscheiden zwischen diesen, welche in ein Dockercompose File und in das Terminal passen.
-
-### Terminal
-* docker start + (Docker-ID)
-* docker run + (Image)
-* Docker run -it + (Image)
-* Docker run --net Test –ip 192.168.2.22 -it ubuntu bash 
-* Docker container run –name XXX –p 8080:80 
-* Docker stop 
-* Docker kill
-* Docker exec –it + (Docker-ID) (bash/sh) 
-* Docker rm $(docker ps –a -q) 
-* Docker ps  
-* Docker ps -a 
-* Docker build -t (Name des Image) . 
-* Docker image ls
+[Upload]https://github.com/nickegli/Modul_300/blob/master/_LB03/documents/commands.md
 
 ## Container erstellen
 Das Dockerfile kann mit dem Befehl `docker build -t websrv-egli .` erstellt werden. Dabei wird das Dockerfile aus dem lokalen Verzeichniss genommen und für die Erstelung des Images verwendet.
