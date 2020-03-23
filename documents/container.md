@@ -39,6 +39,7 @@ Bei den Befehlen muss man immer UNterscheiden zwischen diesen, welche in ein Doc
 > EXPOSE 80 
 >
 > CMD ["usr/sbin/apache2", "-D", "FOREGROUND"] 
+> 
 <-------------------------------------------------> 
 
 ## Docker Container einrichten
