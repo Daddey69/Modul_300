@@ -23,7 +23,7 @@ Bei den Befehlen muss man immer UNterscheiden zwischen diesen, welche in ein Doc
 * Docker build -t (Name des Image) . 
 * Docker image ls
 
-### Dockerfile
+## Dockerfile
 <-------------------------------------------------> 
 > FROM ubuntu:18.04 
 > 
@@ -43,6 +43,20 @@ Bei den Befehlen muss man immer UNterscheiden zwischen diesen, welche in ein Doc
 > 
 <-------------------------------------------------> 
 
+### Anweisungen Dockerfile
+* `FROM`
+  * definiert welches Image für den Container verwendet werden sollte.
+* `ADD`
+  * Ermöglicht das Hinzufügen externer Inhalte.
+* `CMD`
+  * Nach dem Aufstarten des Containers, werden die folgenden Befehle in einem CMD ausgeführt. Dabei ist jedoch wichtig, dass der `sudo` Befehl nicht verwendet wird, da man sowieso schon mit erhöhten Berechtigungen arbeitet.
+
 ## Docker Container einrichten
+
+## Konzepte
+### Build Context
+Der Befehl `docker build` erfordert ein Dockerfile und einen Context. 
+
+
 
 [Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/README.md)
