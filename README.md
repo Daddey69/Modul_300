@@ -14,7 +14,7 @@ Alle Inhalte zur LB02 finden sie im Verlauf dieses Dokuments und den weiteren ve
 
 ## Lernbeurteilung 03
 Alle Inhalte zur LB03 finden sie im Verlauf dieses Dokuments und den weiteren verlinkten Inhalten.
-[Lernbeurteilung 02](https://github.com/Daddey69/Modul_300/tree/master/_LB03)
+[Lernbeurteilung 03](https://github.com/Daddey69/Modul_300/tree/master/_LB03)
 
 ## Wissen
 [Linux](https://github.com/Daddey69/Modul_300/blob/master/documents/linux.md)
