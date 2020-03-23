@@ -14,6 +14,7 @@ Mehr Informationen können unter [Docker Hub](https://hub.docker.com/) gefunden 
 Das Dockerfile kann mit dem Befehl `docker build -t websrv-egli .` erstellt werden. Dabei wird das Dockerfile aus dem lokalen Verzeichniss genommen und für die Erstelung des Images verwendet.
 
 ## Starten der Umgebung
+Meinen Container kann ich mit dem Befehl `docker run -it websrv-egli bash` aufstarten.
 
 ## Anweisungen Dockerfile
 * `FROM`
