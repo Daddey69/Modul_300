@@ -50,6 +50,8 @@ Bei den Befehlen muss man immer UNterscheiden zwischen diesen, welche in ein Doc
   * Ermöglicht das Hinzufügen externer Inhalte.
 * `CMD`
   * Nach dem Aufstarten des Containers, werden die folgenden Befehle in einem CMD ausgeführt. Dabei ist jedoch wichtig, dass der `sudo` Befehl nicht verwendet wird, da man sowieso schon mit erhöhten Berechtigungen arbeitet.
+* `ENV`
+  * Diese Anweisung ermöglicht es Variabeln zu deffinieren, welche im weiteren Verlauf der Installation genutzt werden können.
 
 ## Docker Container einrichten
 
