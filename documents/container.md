@@ -1,4 +1,4 @@
-<img align="left" width="80" height="80" src="./img/../../img/docker-logo.png" alt="Docker Logo">
+<img align="left" width="80" height="80" src="./img/../../img/docker-logo1.png" alt="Docker Logo">
 
 # Container / Docker
 Docker ist eine Form von Paas (Platform as a Service) welche OS-Level virtualisierung verwendet, zur Bereitstellung sogennanter Contaier. Diese sind grundsätzlich von einander isoliert, konnen jedoch durch das öffnen von Ports und daserstellen von Netzwerken zusammengeschlossen werden. Durch den Zusammenschluss können mehrere Mikroservices zusammen einen grösseren Dienst zur Verfung zu stellen.
