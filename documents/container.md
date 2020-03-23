@@ -5,6 +5,8 @@ Docker ist eine Form von Paas (Platform as a Service) welche OS-Level virtualisi
 
 Mehr Informationen können unter [Docker Hub](https://hub.docker.com/) gefunden werden.
 
+## Meine LB03
+
 ## Befehle
 Bei den Befehlen muss man immer UNterscheiden zwischen diesen, welche in ein Dockercompose File und in das Terminal passen.
 
@@ -23,28 +25,10 @@ Bei den Befehlen muss man immer UNterscheiden zwischen diesen, welche in ein Doc
 * Docker build -t (Name des Image) . 
 * Docker image ls
 
-## Dockerfile
-<-------------------------------------------------> 
-> FROM ubuntu:18.04 
-> 
-> MAINTAINER Yanick Egli-Rohr 
-> 
-> RUN sudo apt-get update  \ 
-> && sudo apt-get install apache2 –Y 
-> 
-> ENV APACHE_RUN_USER www-data 
-> ENV APACHE_RUN_GROUP www-data 
-> ENV APACHE_LOG_DIR /var/log/apache2 
-> ENV APACHE_RUN_DIR /var/www/html 
-> 
-> EXPOSE 80 
->
-> CMD ["usr/sbin/apache2", "-D", "FOREGROUND"] 
-> 
-<-------------------------------------------------> 
-
 ## Container erstellen
 Das Dockerfile kann mit dem Befehl `docker build -t websrv-egli .` erstellt werden. Dabei wird das Dockerfile aus dem lokalen Verzeichniss genommen und für die Erstelung des Images verwendet.
+
+## Starten der Umgebung
 
 ## Anweisungen Dockerfile
 * `FROM`
