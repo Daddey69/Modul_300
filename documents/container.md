@@ -1,5 +1,8 @@
 <img align="left" width="80" height="80" src="./img/../../img/docker-logo1.png" alt="Docker Logo">
 
+
+- 
+
 # Container / Docker
 Docker ist eine Form von Paas (Platform as a Service) welche OS-Level virtualisierung verwendet, zur Bereitstellung sogennanter Contaier. Diese sind grundsätzlich von einander isoliert, konnen jedoch durch das öffnen von Ports und daserstellen von Netzwerken zusammengeschlossen werden. Durch den Zusammenschluss können mehrere Mikroservices zusammen einen grösseren Dienst zur Verfung zu stellen.
 
@@ -53,11 +56,8 @@ Bei den Befehlen muss man immer UNterscheiden zwischen diesen, welche in ein Doc
 * `ENV`
   * Diese Anweisung ermöglicht es Variabeln zu deffinieren, welche im weiteren Verlauf der Installation genutzt werden können.
 
-## Docker Container einrichten
 
-## Konzepte
-### Build Context
-Der Befehl `docker build` erfordert ein Dockerfile und einen Context. 
+
 
 
 
