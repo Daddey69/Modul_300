@@ -1,7 +1,7 @@
 # Lernbeurteilung 03
 
 ## Bewertung
-[Bewertungsraster](https://bscw.tbz.ch/bscw/bscw.cgi/31406128?op=preview&back_url=23235391%3fclient_size%3d439x412)
+[Bewertungsraster](https://bscw.tbz.ch/bscw/bscw.cgi/31406123?op=preview&back_url=23235391%3fclient_size%3d639x592)
 
 ## Umsetzung
 ### Wichtig
