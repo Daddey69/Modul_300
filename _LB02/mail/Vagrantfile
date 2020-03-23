@@ -22,17 +22,8 @@ echo "MAIN_TLS_ENABLE=yes" >>  /etc/exim4/exim4.conf.template
 update-exim4.conf
 service exim4 restart
 
-
-
-# sudo sed -i "s/
+sudo adduser yanickegli
+sudo usermod -aG sudo yanickegli
 
 SHELL
 end
-
-# exim -v postmaster@m300domain.com
-# From: user@m300domain.com
-# To: postmaster@m300domain.com
-# Subject: Testing Exim
-#
-# This is a test message.
-# ^D

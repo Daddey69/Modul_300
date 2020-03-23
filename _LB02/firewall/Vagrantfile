@@ -19,6 +19,9 @@ config.vm.provision "shell", inline: <<-SHELL
 
   #fire aktivieren
    sudo ufw enable
+
+   sudo adduser yanickegli
+   sudo usermod -aG sudo yanickegli
      
   SHELL
 end
