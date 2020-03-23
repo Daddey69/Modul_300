@@ -1,7 +1,7 @@
 <img align="left" width="80" height="80" src="./img/../../../img/docker-logo1.png" alt="Docker Logo">
 
 # Befehle
-Bei den Befehlen muss man immer UNterscheiden zwischen diesen, welche in ein Dockercompose File und in das Terminal passen.
+Bei den Befehlen muss man immer Unterscheiden zwischen diesen, welche in ein Dockercompose File und in das Terminal passen.
 
 ## Terminal
 * docker start + (Docker-ID)
@@ -17,3 +17,5 @@ Bei den Befehlen muss man immer UNterscheiden zwischen diesen, welche in ein Doc
 * Docker ps -a 
 * Docker build -t (Name des Image) . 
 * Docker image ls
+
+## Dockercompose
