@@ -6,9 +6,9 @@ Docker ist eine Form von Paas (Platform as a Service) welche OS-Level virtualisi
 Mehr Informationen können unter [Docker Hub](https://hub.docker.com/) gefunden werden.
 
 ## Meine LB03
+Für meine LB03 habe ich mich dazu entschieden einen Wordpress Server zu installieren, an diesen habe ich eine Datenbank angeschlossen und einen direkten Webserver, wlcher die Website von Wordpress anzeigt.
 
-## Befehle
-[Upload](https://github.com/nickegli/Modul_300/blob/master/_LB03/documents/commands.md)
+[Hier die wichtigsten Befehle](https://github.com/nickegli/Modul_300/blob/master/_LB03/documents/commands.md)
 
 ## Container erstellen
 Das Dockerfile kann mit dem Befehl `docker build -t websrv-egli .` erstellt werden. Dabei wird das Dockerfile aus dem lokalen Verzeichniss genommen und für die Erstelung des Images verwendet.
