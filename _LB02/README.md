@@ -8,7 +8,7 @@
 
 
 ### Netzwerkplan
-<img align="center" width="" height="" src="./img/../../img/Netzplan-Websrv3.jpg" alt="Netzplan">
+<img align="center" width="" height="" src="./img/../../img/Netzplan-Websrv4.jpg" alt="Netzplan">
 
 ### Sicherheitsaspekte
 [Upload](https://github.com/Daddey69/Modul_300/blob/master/documents/sec.md)
