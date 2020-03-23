@@ -18,6 +18,13 @@ config.vm.provision "shell", inline: <<-SHELL
    sudo ufw allow 443/tcp
    sudo ufw allow from any to any port 22
 
+   sudo apt-get install libapache2-mod-proxy-html
+   sudo apt-get install libxml2-dev
+
+   sudo a2enmod proxy
+   sudo a2enmod proxy_html
+   sudo a2enmod proxy_http
+   
   #fire aktivieren
    sudo ufw enable
 
