@@ -43,9 +43,10 @@ Bei den Befehlen muss man immer UNterscheiden zwischen diesen, welche in ein Doc
 > 
 <-------------------------------------------------> 
 
+## Container erstellen
 Das Dockerfile kann mit dem Befehl `docker build -t websrv-egli .` erstellt werden. Dabei wird das Dockerfile aus dem lokalen Verzeichniss genommen und für die Erstelung des Images verwendet.
 
-### Anweisungen Dockerfile
+## Anweisungen Dockerfile
 * `FROM`
   * definiert welches Image für den Container verwendet werden sollte.
 * `ADD`
