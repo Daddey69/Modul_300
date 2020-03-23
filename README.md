@@ -5,6 +5,7 @@
   - [Reflexion](#reflexion)
     - [Montag, 09.03.2020](#montag-09032020)
     - [Montag, 16.03.2020](#montag-16032020)
+    - [Montag, 23.03.2020](#montag-23032020)
 
 ## Lernbeurteilung 02
 Alle Inhalte zur LB02 finden sie im Verlauf dieses Dokuments und den weiteren verlinkten Inhalten.
@@ -33,3 +34,6 @@ Ich bin zufrieden mit meinem Arbeitstempo. Die arbeit welche ich bis jetzt leist
 
 ### Montag, 16.03.2020
 Heute konnte ich im Homeoffice nochmals alle Punkte der bewqertung überfliegen und sicherstellen, dass ich einen Grossteil der Punkte erfüllt habe. Da dieses Raster sehr offe ngeschrieben ist, habe ich mich genau daran gehalten und nur dies was erwünscht war gemacht, dadurch werde ich wohl einen Punkt im Bezug auf die Kreativität und Komplexität verlieren, trotzdem werden ich mehr als 80% der Punkte erfüllt haben. Ich bin mir noch nicht so sicher, wie ich die Abgabe genau gestallten möchte, da wir dies nun ja via Video-Call machen werden. Aber mal schauen wie das wird.
+
+### Montag, 23.03.2020
+Heute konnte ich meine LB02 abgeben und mit der LB03 beginnen, dabei erstaunte mich das die obersten beiden Kompetenzen die selben wie bei der LB02 waren. Jedoch konnte ich schon einiges abarbeiten. Die ersten beiden fast schon drei Kompetenzen habe ich soweit dokumentiert und erledigt. Hoffe der rest wird nicht alzu kompliziert und das ich mit meinem jetztigen Speed gut mithalten kann und so fortfahren kann für den Rest des Moduls. Hoffentlich wird auch meine Abgabe der LB02 sauber verlaufen.
