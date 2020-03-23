@@ -7,6 +7,8 @@ Mehr Informationen können unter [Docker Hub](https://hub.docker.com/) gefunden 
 
 ## Meine LB03
 
+## Befehle
+[Upload]https://github.com/nickegli/Modul_300/blob/master/_LB03/documents/commands.md
 
 ## Container erstellen
 Das Dockerfile kann mit dem Befehl `docker build -t websrv-egli .` erstellt werden. Dabei wird das Dockerfile aus dem lokalen Verzeichniss genommen und für die Erstelung des Images verwendet.
