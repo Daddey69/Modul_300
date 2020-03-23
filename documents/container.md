@@ -21,6 +21,7 @@ Bei den Befehlen muss man immer UNterscheiden zwischen diesen, welche in ein Doc
 * Docker ps  
 * Docker ps -a 
 * Docker build -t (Name des Image) . 
+* Docker image ls
 
 ### Dockerfile
 <-------------------------------------------------> 
