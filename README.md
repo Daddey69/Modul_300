@@ -1,18 +1,16 @@
 # Dokumentation Modul 300
 - [Dokumentation Modul 300](#dokumentation-modul-300)
-  - [Lernbeurteilung 02](#lernbeurteilung-02)
-  - [Lernbeurteilung 03](#lernbeurteilung-03)
+  - [Lernbeurteilungen](#lernbeurteilungen)
   - [Wissen](#wissen)
   - [Reflexion](#reflexion)
     - [Montag, 09.03.2020](#montag-09032020)
     - [Montag, 16.03.2020](#montag-16032020)
     - [Montag, 23.03.2020](#montag-23032020)
 
-## Lernbeurteilung 02
+## Lernbeurteilungen
 Alle Inhalte zur LB02 finden sie im Verlauf dieses Dokuments und den weiteren verlinkten Inhalten.
 [Lernbeurteilung 02](https://github.com/Daddey69/Modul_300/tree/master/_LB02)
 
-## Lernbeurteilung 03
 Alle Inhalte zur LB03 finden sie im Verlauf dieses Dokuments und den weiteren verlinkten Inhalten.
 [Lernbeurteilung 03](https://github.com/Daddey69/Modul_300/tree/master/_LB03)
 
