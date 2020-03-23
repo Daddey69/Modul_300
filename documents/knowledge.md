@@ -31,5 +31,25 @@ Im Bereich von Container habe ich bis jetzt nur mit Docker gearbeitet, dies aber
 ### Neues Wissen:
 Konkret konnte ich bis jetzt noch nichts neues erlernen, jedoch werde ich sicher neues hinzu lernen im weiteren Verlauf des Moduls.
 
+## Containerisierung
+### Bestehendes Wissen:
+Kein konkretes Vorwissen bis zu diesem Modul, ausser einzelnen Begegnungen im Büro.
+
+### Neues Wissen:
+Ich konnte sehr viel Wissen aneignen wobei dieses nun mehrheitlich nur auf Docker basiert, möchte ich trotzdem weitermachen und mehr dazu lernen, vielleicht auch mit Kubernetis beginnen zu arbeiten.
+
+## Docker
+### Bestehendes Wissen:
+Mit Docker habe ich im Büro bis zu dieser Arbeit erst 1-2x gearbeitet. Dabei habe ich mehrheitlich nur die Services genutzt und mich ein bisschen mit den Dockerfiles auseinandergesetzt.
+
+### Neues Wissen:
+Ich konnte viel neues im Bereich der .yml Dateien und der dockercompose Umgebung dazu lernen, was sehr hilfreich ist :)
+
+## Mikroservices
+### Bestehendes Wissen:
+Kein Plan was das ist, ganz ehrlich.
+
+### Neues Wissen:
+Nun weis ich es endlich.
 
 [Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/README.md)
