@@ -18,4 +18,4 @@ Bei den Befehlen muss man immer Unterscheiden zwischen diesen, welche in ein Doc
 * Docker build -t (Name des Image) . 
 * Docker image ls
 
-## Dockercompose
+## Docker Compose
