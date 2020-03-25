@@ -5,6 +5,7 @@ Diesen Webserver habe ich mit Hilfe von Dockecompose afgesetzt. Dabei war es seh
 
 Der wichtigste Teil war am Ende die Konfiguration des Netzwerkes, damit sich weitere container, welche ich erstelle auch gegenseitig sehen können.
 
+> 
 > net: 
 > 
 >    LAN:
@@ -16,6 +17,7 @@ Der wichtigste Teil war am Ende die Konfiguration des Netzwerkes, damit sich wei
 >            config:
 > 
 >                - subnet: 192.168.10.0/24
+> 
 
 
 [Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/README.md)
