@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
 
-MAINTAINER Flavio Paganini
+MAINTAINER Yanick Egli-Rohr
 
 RUN apt-get update && apt-get install -y apache2
 

@@ -3,7 +3,7 @@
 version: '1'
  services:
     httpd:
-        image: httpd:latest
+        image: egliweb
         container_name: apache2_prod
         volumes: 
             - .apacheconf:/etc/apache2/
