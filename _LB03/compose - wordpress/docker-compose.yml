@@ -6,7 +6,7 @@ version: '1'
         image: httpd:latest
         container_name: apache2_prod
         volumes: 
-            - /usr/home/test/docker/conf:/etc/apache2/
+            - .apacheconf:/etc/apache2/
         ports: 
             - 8080:80           
         restart: always   
@@ -18,7 +18,7 @@ version: '1'
         image: wordpress:latest
         container_name: wordpress_prod
         volumes: 
-            - 
+            - .wordpressconf:/var/www/
         expose: 
             - "80"
         restart: always
@@ -32,7 +32,7 @@ version: '1'
         image: mysql:latest
         container_name: mysql_prod
         volumes: 
-            - 
+            - .mysqlconf:/etc/
         expose: 
             - "80"
         restart: always
