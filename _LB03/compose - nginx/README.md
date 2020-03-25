@@ -6,10 +6,15 @@ Diesen Webserver habe ich mit Hilfe von Dockecompose afgesetzt. Dabei war es seh
 Der wichtigste Teil war am Ende die Konfiguration des Netzwerkes, damit sich weitere container, welche ich erstelle auch gegenseitig sehen können.
 
 > net: 
+> 
 >    LAN:
+> 
 >       ipam:
+> 
 >            driver: default
+> 
 >            config:
+> 
 >                - subnet: 192.168.10.0/24
 
 
