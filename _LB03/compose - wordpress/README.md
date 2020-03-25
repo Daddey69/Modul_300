@@ -4,3 +4,5 @@ Um diese Umgebung in Betrieb zu nehmen, muss der überordner heruntergeladen wer
 
 ## Schichtenmodell
 <img align="center" width="" height="" src="./img/../../img/../../img/schichten.jpg" alt="Schichtenmodell">
+
+## Netzwerkplan
