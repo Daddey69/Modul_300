@@ -2,19 +2,45 @@
 
 version: '1'
  services:
-    nginx:
-        image: nginx:latest
-        container_name: nginx_prod
+    httpd:
+        image: httpd:latest
+        container_name: apache2_prod
         volumes: 
-            - ./conf:/etc/nginx/nginx.conf
+            - /usr/home/test/docker/conf:/etc/apache2/
         ports: 
-            - 8080:80           #  bweitergabe des Ports für den Zugriff via http
-        restart: always         # verhindert das löschen eines Containers
+            - 8080:80           
+        restart: always   
         net: 
             LAN:
                 ipv4_address: 192.168.10.10
 
+    wordpress:
+        image: wordpress:latest
+        container_name: wordpress_prod
+        volumes: 
+            - 
+        expose: 
+            - "80"
+        restart: always
+        depends_on:
+            - httpd
+        networks:
+            LAN:
+                ipv4_address: 192.168.10.20
 
+    mysql:
+        image: mysql:latest
+        container_name: mysql_prod
+        volumes: 
+            - 
+        expose: 
+            - "80"
+        restart: always
+        depends_on:
+            - httpd
+        networks:
+            LAN:
+                ipv4_address: 192.168.10.30
 
 net: 
     LAN:
