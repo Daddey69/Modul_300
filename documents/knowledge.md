@@ -29,14 +29,14 @@ Mit Virtualisierung habe ich schon in den meisten Modulen hier an der TBZ wie au
 Im Bereich von Container habe ich bis jetzt nur mit Docker gearbeitet, dies aber bis jetzt nur seit 2-3 Wochen, da ich mich darin vertiefen möchte und auch meine IPA in diesem Bereich absolvieren möchte.
 
 ### Neues Wissen:
-Konkret konnte ich bis jetzt noch nichts neues erlernen, jedoch werde ich sicher neues hinzu lernen im weiteren Verlauf des Moduls.
+Einen grossteil meines neu erlernten Wissens, basiert auf dem Bereich von Docker, dieses Wissen habe ich so gut wie möglich dokumentiert, damit ich auch im weiteren Verlauf meiner Lehre wie auch meiner IPA darauf zurückgreiffen kann.
 
 ## Containerisierung
 ### Bestehendes Wissen:
-Kein konkretes Vorwissen bis zu diesem Modul, ausser einzelnen Begegnungen im Büro.
+Bis zum Beginn des aktuellen Modules, hatte ich im UeK mit Linux Container unter ProxMox zu tun, zudem hatte ich im Büro schon mehreren Präsentationen zugehört bezüglich Docker und EDDC, dabei konnte ich selber jedoch praktisch nichts mit dem Thema machen und keine relevanten Arbeiten nachgehen.
 
 ### Neues Wissen:
-Ich konnte sehr viel Wissen aneignen wobei dieses nun mehrheitlich nur auf Docker basiert, möchte ich trotzdem weitermachen und mehr dazu lernen, vielleicht auch mit Kubernetis beginnen zu arbeiten.
+Ich konnte mir einen grossteil an neuem Wissen aneignen. Vieles was ich lernen konnte war mir völlig neu, jedoch sehe ich einen klaren Vorteil darin, dass ich schon im Büro damit konfrontiert wurde, da ich dadurch auch einiges an abstraktes Denken erlernen konnte, was mir sehr viel half, beim Vorstellen meiner Umgebung, da ich keien physische Hardware vor mir habe.
 
 ## Docker
 ### Bestehendes Wissen:
