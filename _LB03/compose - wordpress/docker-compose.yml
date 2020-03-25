@@ -2,45 +2,45 @@
 
 version: '3'
     services:
-    httpd:
-        image: egliweb
-        container_name: apache2_prod
-        volumes: 
-            - .apacheconf:/etc/apache2/
-        ports: 
-            - 8080:80           
-        restart: always   
-        net: 
-            LAN:
-                ipv4_address: 192.168.10.10
+        httpd:
+            image: egliweb
+            container_name: apache2_prod
+            volumes: 
+                - .apacheconf:/etc/apache2/
+            ports: 
+                - 8080:80           
+            restart: always   
+            net: 
+                LAN:
+                    ipv4_address: 192.168.10.10
 
-    wordpress:
-        image: wordpress:latest
-        container_name: wordpress_prod
-        volumes: 
-            - .wordpressconf:/var/www/
-        expose: 
-            - "80"
-        restart: always
-        depends_on:
-            - httpd
-        networks:
-            LAN:
-                ipv4_address: 192.168.10.20
+        wordpress:
+            image: wordpress:latest
+            container_name: wordpress_prod
+            volumes: 
+                - .wordpressconf:/var/www/
+            expose: 
+                - "80"
+            restart: always
+            depends_on:
+                - httpd
+            networks:
+                LAN:
+                    ipv4_address: 192.168.10.20
 
-    mysql:
-        image: mysql:latest
-        container_name: mysql_prod
-        volumes: 
-            - .mysqlconf:/etc/
-        expose: 
-            - "80"
-        restart: always
-        depends_on:
-            - httpd
-        networks:
-            LAN:
-                ipv4_address: 192.168.10.30
+        mysql:
+            image: mysql:latest
+            container_name: mysql_prod
+            volumes: 
+                - .mysqlconf:/etc/
+            expose: 
+                - "80"
+            restart: always
+            depends_on:
+                - httpd
+            networks:
+                LAN:
+                    ipv4_address: 192.168.10.30
 
 networks: 
     LAN:
