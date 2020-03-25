@@ -1,7 +1,7 @@
 # Wordpress Umgebung
 
-version: '1'
- services:
+version: '3'
+    services:
     httpd:
         image: egliweb
         container_name: apache2_prod
@@ -42,7 +42,7 @@ version: '1'
             LAN:
                 ipv4_address: 192.168.10.30
 
-net: 
+networks: 
     LAN:
         ipam:
             driver: default
