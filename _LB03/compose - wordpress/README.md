@@ -6,4 +6,4 @@ Um diese Umgebung in Betrieb zu nehmen, muss der überordner heruntergeladen wer
 <img align="center" width="" height="" src="./img/../../img/../../img/schichten.jpg" alt="Schichtenmodell">
 
 ## Netzwerkplan
-<img align="center" width="" height="" src="./img/../../img/../../img/netzplan_lb03_1.jpg" alt="Netzwerk Umgebung">
+<div style="text-align:center"><img src="./img/../../img/../../img/netzplan_lb03_1.jpg" /></div>
