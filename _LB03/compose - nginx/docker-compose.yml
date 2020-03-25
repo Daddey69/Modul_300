@@ -8,8 +8,8 @@ version: '1'
         volumes: 
             - ./conf:/etc/nginx/nginx.conf
         ports: 
-            - 8080:80
-        restart: always
+            - 8080:80           #  bweitergabe des Ports für den Zugriff via http
+        restart: always         # verhindert das löschen eines Containers
         net: 
             LAN:
                 ipv4_address: 192.168.10.10
