@@ -5,7 +5,7 @@ Im folgenden dockerfile können Sie meine installation eines Apache2 Webservers 
 
 > FROM ubuntu:18.04
 > 
-> MAINTAINER Flavio Paganini
+> MAINTAINER Somebody
 > 
 > RUN apt-get update && apt-get install -y apache2
 > 
