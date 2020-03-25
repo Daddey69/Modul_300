@@ -1,0 +1,24 @@
+# nginx container
+
+version: '1'
+ services:
+    nginx:
+        image: nginx:latest
+        container_name: nginx_prod
+        volumes: 
+            - ./conf:/etc/nginx/nginx.conf
+        ports: 
+            - 8080:80
+        restart: always
+        net: 
+            LAN:
+                ipv4_address: 192.168.10.10
+
+
+
+net: 
+    LAN:
+        ipam:
+            driver: default
+            config:
+                - subnet: 192.168.10.0/24
