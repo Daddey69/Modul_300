@@ -17,10 +17,15 @@ services:
     wordpress:
         image: wordpress:latest
         container_name: wordpress_prod
+        environment: 
+            WORDPRESS_DB_HOST: mysql
+            WORDPRESS_DB_USER: testuser 
+            WORDPRESS_DB_PASSWORD: tetspass
+            WORDPRESS_DB_NAME: testdb
         volumes: 
-            - .wordpressconf:/var/www/
-        expose: 
-            - "80"
+            - ./wordpressconf:/var/www/html
+        ports: 
+            - 4040:80
         restart: always
         depends_on:
             - httpd
@@ -31,8 +36,13 @@ services:
     mysql:
         image: mysql:latest
         container_name: mysql_prod
+        environment: 
+            MYSQL_DATABASE: testdb
+            MYSQL_USER: tetsuser
+            MYSQL_PASSWORD: tetspass
+            MYSQL_RANDOM_ROOT_PASSWORD: '1'
         # volumes: 
-        #    - .mysqlconf:/etc/
+        #    - ./mysqlconf:/etc/
         expose: 
             - "80"
         restart: always
