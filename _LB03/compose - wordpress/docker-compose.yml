@@ -19,27 +19,27 @@ services:
         container_name: wordpress_prod
         environment: 
             WORDPRESS_DB_HOST: mysql
-            WORDPRESS_DB_USER: testuser 
-            WORDPRESS_DB_PASSWORD: tetspass
-            WORDPRESS_DB_NAME: testdb
-        volumes: 
-            - ./wordpressconf:/var/www/html
+            WORDPRESS_DB_USER: exampleuser
+            WORDPRESS_DB_PASSWORD: examplepass
+            WORDPRESS_DB_NAME: exampledb
+        #volumes: 
+        #    - ./wordpressconf:/var/www/html
         ports: 
             - 4040:80
         restart: always
         depends_on:
-            - httpd
+            - mysql
         networks:
             LAN:
                 ipv4_address: 192.168.10.20
 
     mysql:
-        image: mysql:latest
+        image: mysql:5.7
         container_name: mysql_prod
         environment: 
-            MYSQL_DATABASE: testdb
-            MYSQL_USER: tetsuser
-            MYSQL_PASSWORD: tetspass
+            MYSQL_DATABASE: exampledb
+            MYSQL_USER: exampleuser
+            MYSQL_PASSWORD: examplepass
             MYSQL_RANDOM_ROOT_PASSWORD: '1'
         # volumes: 
         #    - ./mysqlconf:/etc/
