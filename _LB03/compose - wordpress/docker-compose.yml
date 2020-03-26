@@ -6,7 +6,7 @@ services:
         image: httpd
         container_name: apache2_prod
         volumes: 
-            - .apacheconf:/etc/apache2/
+            - ./apacheconf:/etc/apache2/
         ports: 
             - 8080:80           
         restart: always   
