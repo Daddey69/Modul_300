@@ -22,8 +22,8 @@ services:
             WORDPRESS_DB_USER: exampleuser
             WORDPRESS_DB_PASSWORD: examplepass
             WORDPRESS_DB_NAME: exampledb
-        #volumes: 
-        #    - ./wordpressconf:/var/www/html
+        volumes: 
+            - ./wordpressconf:/var/www/html
         ports: 
             - 4040:80
         restart: always
