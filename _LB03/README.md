@@ -49,6 +49,8 @@ Das Monitoring meiner Umgebung habe ich mit CAdvisor von Google gelöst. Diesen 
 ## Security
 Um die Sicherheit meienr Umgebung zu gewährleisten, habe ich einen Reverseproxy mit nginx eingerichtet. Diesen habe ich ebenfalls via Docker-compose file erstellt. Über diesen werden alle Dienste zur Verfügugn gestellt. Dies ermöglicht das alle Dienste über eine IP laufen und daher nur diese direkt angegriffen werden kann.
 
+Ein weiterer Aspekt der Sicherheit, sind die Images. Dabei habe ich wenn möglich nicht die aktuellste Version genutzt sonder eine möglichst sichere und stabile. Zudem habe ich wo möglich den Quellcode angeschaut und geprüft, dass alle Inhalte mit meiner Umsetzung Sinn machen. Falls möglich habe ich ebenfalls ein eigenes Image erstellt und dafür zuerst ein Dockerfile geschrieben. Die Images sind im Ordner Images zu finden.
+
 ### config
 <img align="center" width="" height="" src="./../../img/reverse-conf.png" alt="Security - Reverse Proxy">
 
