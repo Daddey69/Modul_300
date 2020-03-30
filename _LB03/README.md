@@ -50,11 +50,11 @@ Das Monitoring meiner Umgebung habe ich mit CAdvisor von Google gelöst. Diesen 
 Um die Sicherheit meienr Umgebung zu gewährleisten, habe ich einen Reverseproxy mit nginx eingerichtet. Diesen habe ich ebenfalls via Docker-compose file erstellt. Über diesen werden alle Dienste zur Verfügugn gestellt. Dies ermöglicht das alle Dienste über eine IP laufen und daher nur diese direkt angegriffen werden kann.
 
 ### config
-<img align="center" width="" height="" src="./../img/reverse-conf.png" alt="Security - Reverse Proxy">
+<img align="center" width="" height="" src="./../../img/reverse-conf.png" alt="Security - Reverse Proxy">
 
 ## Testprotokoll
 Wie für die LB02 habe ich hier ein weiteres Testprotokoll, ich habe versucht hierbei die wichtigsten Dienste zu prüfen um deren FUnktionalität sicherzustellen können.
 
-<img align="center" width="" height="" src="./img/../../img/../../img/testprotokoll3.png" alt="Testprotokoll">
+<img align="center" width="" height="" src="./../../img/testprotokoll3.png" alt="Testprotokoll">
 
 [Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/README.md)
