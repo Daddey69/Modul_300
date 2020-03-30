@@ -44,17 +44,17 @@ $ docker run --rm -d -P mysql
 Das Monitoring meiner Umgebung habe ich mit CAdvisor von Google gelöst. Diesen Container habe ich ebenfalls in meinem Docker-compose file definiert. Dieser Service sammelt alle Daten meiner Umgebung und nimmt meine Logs auf, damit ich diese dort übersichtlich einsehen kann und ich ein konstantes Monitoring meiner Mikroservices habe.
 
 ### config
-<img align="center" width="" height="" src="./img/../../img/../../img/cadvisor-conf.png" alt="Monitoring">
+<img align="center" width="" height="" src="./../../img/cadvisor-conf.png" alt="Monitoring">
 
 ## Security
 Um die Sicherheit meienr Umgebung zu gewährleisten, habe ich einen Reverseproxy mit nginx eingerichtet. Diesen habe ich ebenfalls via Docker-compose file erstellt. Über diesen werden alle Dienste zur Verfügugn gestellt. Dies ermöglicht das alle Dienste über eine IP laufen und daher nur diese direkt angegriffen werden kann.
 
 ### config
-<img align="center" width="" height="" src="./img/../../img/../../img/reverse-conf.png" alt="Security - Reverse Proxy">
+<img align="center" width="" height="" src="./../img/reverse-conf.png" alt="Security - Reverse Proxy">
 
 ## Testprotokoll
 Wie für die LB02 habe ich hier ein weiteres Testprotokoll, ich habe versucht hierbei die wichtigsten Dienste zu prüfen um deren FUnktionalität sicherzustellen können.
 
-<img align="center" width="" height="" src="./img/../../img/../../img/testprotokoll3.png" alt="<testprotokoll">
+<img align="center" width="" height="" src="./img/../../img/../../img/testprotokoll3.png" alt="Testprotokoll">
 
 [Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/README.md)
