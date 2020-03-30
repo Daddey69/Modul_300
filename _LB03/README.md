@@ -45,7 +45,7 @@ Das Monitoring meiner Umgebung habe ich mit CAdvisor von Google gelöst. Diesen 
 
 
 ## Netzwerkplan
-<div style="text-align:center"><img src="./img/../../img/../../img/cadvisor-conf.png" /></div>
+<div style="text-align:center"><img src="./img/../../img/cadvisor-conf.png" /></div>
 
 
 
