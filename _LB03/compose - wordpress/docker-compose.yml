@@ -73,7 +73,7 @@ services:
     # CAdvisor by google für das Monitoring meiner Arbeit.            
     cadvisor:
         image: google/cadvisor:latest
-        container_name: cadvisor_pro
+        container_name: cadvisor_prod
         #volumes: 
         ports: 
             - 128:80
@@ -82,7 +82,7 @@ services:
             LAN:
                 ipv4_address: 192.168.10.100        
 
-# deffinierung des Netzwerks
+# definierung des Netzwerks
 networks: 
     LAN:
         ipam:

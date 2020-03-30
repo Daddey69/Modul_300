@@ -40,8 +40,12 @@ MySQL Container mit nächsten freien Port verbinden:
 $ docker run --rm -d -P mysql
 ```
 
+## Monitoring
+Das Monitoring meiner Umgebung habe ich mit CAdvisor von Google gelöst. Diesen Container habe ich ebenfalls in meinem Docker-compose file definiert. Dieser Service sammelt alle Daten meiner Umgebung und nimmt meine Logs auf, damit ich diese dort übersichtlich einsehen kann und ich ein konstantes Monitoring meiner Mikroservices habe.
 
 
+## Netzwerkplan
+<div style="text-align:center"><img src="./img/../../img/../../img/cadvisor-conf.png" /></div>
 
 
 
