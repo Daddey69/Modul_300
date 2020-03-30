@@ -1,4 +1,4 @@
-<img align="left" width="80" height="80" src="./img/../../img/docker-logo1.png" alt="Docker Logo">
+<img align="left" width="80" height="80" src="./img/../../../img/docker-logo1.png" alt="Docker Logo">
 
 # Images
 Im folgenden Ordner habe ich jegliche Images abgelegt, welche ich für dieses Modul sedlber erstellt habe. Dies habe ich hauptsächlich aus Gründen der Sicherheit so gemacht. Dafür habe ich eigenen Dockerfiles erstellt. Diese habe ich basierend auf bestehenden gemacht, danach jedoch noch eigenen Befehle eingefügt und Programme wie net-tools und oing installiert, welche zu testzwecken noch sehr nützlich sind.
