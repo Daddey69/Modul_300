@@ -1,7 +1,23 @@
-# Wordpress Umgebung
+# Wordpress Umgebung Folgende Services wurden ihrer IP und wichtigkeit nach sortiert.
 
 version: '3'
 services:
+
+     # Einsatz eines Reverse Proxy, erhöht die Sicherheit der Infrastruktur, da Zugriffe nur über einen Server möglich sind.            
+     reverse:
+        image: nginx
+        container_name: reverse_prod
+        ports: 
+            - 80:80
+            - 443:443
+        volumes: 
+            - ./nginxconfig:/etc/nginx
+            - ./sslzert:/etc/ssl/private
+        networks: 
+            LAN:
+                ipv4_address: 192.168.10.5
+    
+    # Webserver für das Hosten der Wordpress Seiten
     httpd:
         image: httpd
         container_name: apache2_prod
@@ -14,6 +30,7 @@ services:
             LAN:
                 ipv4_address: 192.168.10.10
 
+    # Wordpressserver für die Bearbeitung und das Design von Webseiten.
     wordpress:
         image: wordpress:latest
         container_name: wordpress_prod
@@ -33,6 +50,7 @@ services:
             LAN:
                 ipv4_address: 192.168.10.20
 
+    # Mysql für das hinterlegen der Daten von Wordpress
     mysql:
         image: mysql:5.7
         container_name: mysql_prod
@@ -52,6 +70,19 @@ services:
             LAN:
                 ipv4_address: 192.168.10.30
 
+    # CAdvisor by google für das Monitoring meiner Arbeit.            
+    cadvisor:
+        image: google/cadvisor:latest
+        container_name: cadvisor_pro
+        #volumes: 
+        ports: 
+            - 128:80
+        restart: always
+        networks:
+            LAN:
+                ipv4_address: 192.168.10.100        
+
+# deffinierung des Netzwerks
 networks: 
     LAN:
         ipam:
