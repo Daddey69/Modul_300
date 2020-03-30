@@ -1,14 +1,14 @@
 <img align="left" width="80" height="80" src="./img/../../img/git-logo.png" alt="Github Logo">
 
 # Images
-Im folgenden Ordner habe ich jegliche Images abgelegt, welche ich für dieses Modul sedlber erstellt habe. 
+Im folgenden Ordner habe ich jegliche Images abgelegt, welche ich für dieses Modul sedlber erstellt habe. Dies habe ich hauptsächlich aus Gründen der Sicherheit so gemacht. Dafür habe ich eigenen Dockerfiles erstellt. Diese habe ich basierend auf bestehenden gemacht, danach jedoch noch eigenen Befehle eingefügt und Programme wie net-tools und oing installiert, welche zu testzwecken noch sehr nützlich sind.
 
-## Wissenstand
-Mit Git hatte ich bis zu diesem Modul keine richtigen Arbeiten. Jedoch bin ich persönlich über die letzten Wochen ziemlich Fan davon geworden, vorallem da mir das Schreiben von MarkDowns Spass macht. Ich werde Git sicher für weitere Code Basierte Projekte verwenden.
+Hier eine Auflistung meiner Images und deren Funktionen.
+> httpd_egy
+> ubuntu_egy
 
-### Mögliche Einsatzgebiete:
-- Zentrale Ablage einer Projektarbeit mit mehreren Mitarbeiter.
-- Versionierung des Codes, verhindert den verlust von erstellten Programmen.
-- mehrere Personen können gleichzeitig an den selben Projekten arbeiten.
+
+Übrigens können die Images mti dem Befehl `docker pull` aus meinem repository heruntergeladen werden.
+
 
 [Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/README.md)
