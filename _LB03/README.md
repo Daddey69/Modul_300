@@ -52,4 +52,9 @@ Um die Sicherheit meienr Umgebung zu gewährleisten, habe ich einen Reverseproxy
 ### config
 <img align="center" width="" height="" src="./img/../../img/../../img/reverse-conf.png" alt="Security - Reverse Proxy">
 
+## Testprotokoll
+Wie für die LB02 habe ich hier ein weiteres Testprotokoll, ich habe versucht hierbei die wichtigsten Dienste zu prüfen um deren FUnktionalität sicherzustellen können.
+
+<img align="center" width="" height="" src="./img/../../img/../../img/testprotokoll3.png" alt="<testprotokoll">
+
 [Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/README.md)
