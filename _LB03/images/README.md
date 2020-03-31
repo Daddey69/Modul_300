@@ -19,8 +19,11 @@ Diese Images musste ich zuerst auf meinem Intel NUC in .tar Dateien umwandeln un
 ```
 
 Danach konnte ich diese auf meinem Laptop mit folgendem Befehl wieder entpacken.
-> docker load -i httpd.tar
-> docker laod -i ubuntu.tar
+
+```
+docker load -i httpd.tar  
+docker laod -i ubuntu.tar
+```
 
 Übrigens können die Images mti dem Befehl `docker pull` aus meinem repository heruntergeladen werden.
 
