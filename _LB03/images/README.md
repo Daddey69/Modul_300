@@ -9,9 +9,11 @@ Hier eine Auflistung meiner Images und deren Funktionen.
 
 Diese Images musste ich zuerst auf meinem Intel NUC in .tar Dateien umwandeln und dann hier importieren. Dafür habe ich mich zuerst ins richtige Verzeichniss eingewählt
 
-> /test/docker docker images
-> /test/docker docker save httpd_egy -o httpd.tar
-> /test/docker docker save ubuntu_egy -o ubuntu.tar
+```
+/test/docker docker images  
+/test/docker docker save httpd_egy -o httpd.tar  
+/test/docker docker save ubuntu_egy -o ubuntu.tar 
+```
 
 Danach konnte ich diese auf meinem Laptop mit folgendem Befehl wieder entpacken.
 > docker load -i httpd.tar
