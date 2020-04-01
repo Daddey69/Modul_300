@@ -6,6 +6,7 @@
     - [Montag, 09.03.2020](#montag-09032020)
     - [Montag, 16.03.2020](#montag-16032020)
     - [Montag, 23.03.2020](#montag-23032020)
+    - [Montag, 30.03.2020](#montag-30032020)
 
 ## Lernbeurteilungen
 Alle Inhalte zur LB02 finden sie im Verlauf dieses Dokuments und den weiteren verlinkten Inhalten.
@@ -42,3 +43,6 @@ Heute konnte ich im Homeoffice nochmals alle Punkte der bewqertung überfliegen 
 
 ### Montag, 23.03.2020
 Heute konnte ich meine LB02 abgeben und mit der LB03 beginnen, dabei erstaunte mich das die obersten beiden Kompetenzen die selben wie bei der LB02 waren. Jedoch konnte ich schon einiges abarbeiten. Die ersten beiden fast schon drei Kompetenzen habe ich soweit dokumentiert und erledigt. Hoffe der rest wird nicht alzu kompliziert und das ich mit meinem jetztigen Speed gut mithalten kann und so fortfahren kann für den Rest des Moduls. Hoffentlich wird auch meine Abgabe der LB02 sauber verlaufen.
+
+### Montag, 30.03.2020
+Nach meiner erfolgreichen Abgabe der letzten LB vor einer Woche, konnte ich diese Woche endlich so richtig durchstarten mit der LB03. Ich habe mir vorgenommen eine Umgebung Aufzubauen, welche folgende Container beinhalten wird: Apache2, Wordpress, MySql, und CAdvisor. Darauf werde ich dann die einzelnen Handlungskriterien einbringen und einbauen. Zudem habe ich mich schon heute mit dem erstellen eigenener Images befasst, da ich soweit wie möglich meine eigenen Images verwenden möchte für die VMs, da ich dadurch auch Netzwerk Tools und weitere wichtige Utensilien installieren kann. Ich bin immernoch sehr zufrieden mit meinen Leistungen, dieses Modul finde ich sehr spannend und es motiviert mich auch richtig mich hineinzuarbeiten und mir richtig mühe zu geben, damit ich auch top Noten schreiben kann. Ich bin gespannt auf die LB01 nächste Woche.
