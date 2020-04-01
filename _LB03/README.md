@@ -57,6 +57,6 @@ Ein weiterer Aspekt der Sicherheit, sind die Images. Dabei habe ich wenn möglic
 ## Testprotokoll
 Wie für die LB02 habe ich hier ein weiteres Testprotokoll, ich habe versucht hierbei die wichtigsten Dienste zu prüfen um deren FUnktionalität sicherzustellen können.
 
-<img align="center" width="" height="" src="https://github.com/nickegli/Modul_300/blob/master/img/testprotokoll3.png" alt="Testprotokoll">
+<img align="center" width="" height="" src="https://github.com/nickegli/Modul_300/blob/master/img/testprotokoll3.PNG" alt="Testprotokoll">
 
 [Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/README.md)
