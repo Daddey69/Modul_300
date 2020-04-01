@@ -7,7 +7,7 @@ Mehr Informationen können unter [Docker Hub](https://hub.docker.com/) gefunden 
 
 
 ## Unterschied zu herkömlichem VMs
-<img align="center" width="" height="" src="./img/../../img/unterschiede.PNG" alt="Unterschied Container vs. Virtuelle Machine">
+<img align="center" width="" height="" src="./../../img/unterschiede.PNG" alt="Unterschied Container vs. Virtuelle Machine">
 
 Container bringen viele Vorteile mit sich, zum einen sind diese sehr Ressourcensparend, wie man aus der oberen Grafik auslessen kann. Zudem sind sie sehr effizient, da sie nur einen Dienst hosten und somit darauf optimiert sein können.
 
