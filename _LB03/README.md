@@ -52,7 +52,7 @@ Um die Sicherheit meienr Umgebung zu gewährleisten, habe ich einen Reverseproxy
 Ein weiterer Aspekt der Sicherheit, sind die Images. Dabei habe ich wenn möglich nicht die aktuellste Version genutzt sonder eine möglichst sichere und stabile. Zudem habe ich wo möglich den Quellcode angeschaut und geprüft, dass alle Inhalte mit meiner Umsetzung Sinn machen. Falls möglich habe ich ebenfalls ein eigenes Image erstellt und dafür zuerst ein Dockerfile geschrieben. Die Images sind im Ordner Images zu finden.
 
 ### Sicherheitsaspekte
-1. AlLe Container dieser Umgebung laufen auf einem Dedizierten Host, auf diesen kann nur lokal zugegriffen Werden über den Port:22
+1. Alle Container dieser Umgebung laufen auf einem Dedizierten Host, auf diesen kann nur lokal zugegriffen Werden über den Port:22
 2. Der Zugriff auf Mysql und Wordpress ist mit einem Passwort geschützt
 3. Nur der ReverseProxy ist von aussen sichtbar. Dahinter verbergen sich die weiteren Container meiner Umgebung.
 
