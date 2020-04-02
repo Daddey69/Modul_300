@@ -4,7 +4,7 @@ version: '3'
 services:
 
      # Einsatz eines Reverse Proxy, erhöht die Sicherheit der Infrastruktur, da Zugriffe nur über einen Server möglich sind.            
-     reverse:
+    reverse:
         image: nginx
         container_name: reverse_prod
         ports: 
