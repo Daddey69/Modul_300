@@ -57,7 +57,7 @@ Ein weiterer Aspekt der Sicherheit, sind die Images. Dabei habe ich wenn möglic
 3. Nur der ReverseProxy ist von aussen sichtbar. Dahinter verbergen sich die weiteren Container meiner Umgebung.
 
 ### Reverse Proxy
-<img align="center" width="" height="" src="https://github.com/nickegli/Modul_300/blob/master/img/reverse-conf.PNG" alt="Security - Reverse Proxy">
+<img align="center" width="" height="" src="https://github.com/nickegli/Modul_300/blob/master/img/reverse-conf2.PNG" alt="Security - Reverse Proxy">
 
 ### Berechtigungen
 <img align="center" width="" height="" src="https://github.com/nickegli/Modul_300/blob/master/img/userdocker.PNG" alt="Berechtigungen">
