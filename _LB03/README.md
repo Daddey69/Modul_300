@@ -44,7 +44,7 @@ $ docker run --rm -d -P mysql
 Das Monitoring meiner Umgebung habe ich mit CAdvisor von Google gelöst. Diesen Container habe ich ebenfalls in meinem Docker-compose file definiert. Dieser Service sammelt alle Daten meiner Umgebung und nimmt meine Logs auf, damit ich diese dort übersichtlich einsehen kann und ich ein konstantes Monitoring meiner Mikroservices habe.
 
 ### config
-<img align="center" width="" height="" src="https://github.com/nickegli/Modul_300/blob/master/img/cadvisor-conf.PNG" alt="Monitoring">
+<img align="center" width="" height="" src="https://github.com/nickegli/Modul_300/blob/master/img/cadvisor-conf2.PNG" alt="Monitoring">
 
 ## Security
 Um die Sicherheit meienr Umgebung zu gewährleisten, habe ich einen Reverseproxy mit nginx eingerichtet. Diesen habe ich ebenfalls via Docker-compose file erstellt. Über diesen werden alle Dienste zur Verfügugn gestellt. Dies ermöglicht das alle Dienste über eine IP laufen und daher nur diese direkt angegriffen werden kann.
