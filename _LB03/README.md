@@ -59,6 +59,9 @@ Ein weiterer Aspekt der Sicherheit, sind die Images. Dabei habe ich wenn möglic
 ### Reverse Proxy
 <img align="center" width="" height="" src="https://github.com/nickegli/Modul_300/blob/master/img/reverse-conf.PNG" alt="Security - Reverse Proxy">
 
+### Berechtigungen
+<img align="center" width="" height="" src="https://github.com/nickegli/Modul_300/blob/master/img/userdocker.PNG" alt="Berechtigungen">
+
 ## Testprotokoll
 Wie für die LB02 habe ich hier ein weiteres Testprotokoll, ich habe versucht hierbei die wichtigsten Dienste zu prüfen um deren FUnktionalität sicherzustellen können.
 
