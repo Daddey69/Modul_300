@@ -31,6 +31,7 @@ Danach kann man sich auf der Dockerhub Webseite anmelden.
 
 
 ## Starten der Umgebung
+Meine Umgebung kann ich mit dem Befehl `docker-compose up -d` aufstarten. Durch das `-d` kann ich die Audsgabe im Terminal aller Befehle verhindern.
 
 ## Anweisungen Dockerfile
 * `FROM`
