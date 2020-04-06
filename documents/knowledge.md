@@ -47,9 +47,6 @@ Ich konnte viel neues im Bereich der .yml Dateien und der dockercompose Umgebung
 
 ## Mikroservices
 ### Bestehendes Wissen:
-Kein Plan was das ist, ganz ehrlich.
-
-### Neues Wissen:
-Nun weis ich es endlich.
+Dies ist ein Architekturkonzept welches im Bereich der Anwendungsentwicklung genutzt wird. 
 
 [Go back to main Document](https://github.com/Daddey69/Modul_300/blob/master/README.md)
