@@ -5,19 +5,25 @@ Docker ist eine Form von Paas (Platform as a Service) welche OS-Level virtualisi
 
 Mehr Informationen können unter [Docker Hub](https://hub.docker.com/) gefunden werden.
 
+## Installation der Umgebung
+Meine Umgebung habe ich auf meinem INtel NUC installiert, dafür habe ich Ubuntu 16.04 genutzt. Der Vorteil dieser Lösung ist, dass alles remote gespeichert ist und ein Absturz meines Rechners keine schlimmeren Folgen mit sich bringen würde.
+
+Die Installation konnte ich danach mit `docker run hello-world` prüfen.
 
 ## Unterschied zu herkömlichem VMs
 <img align="center" width="" height="" src="https://github.com/nickegli/Modul_300/blob/master/img/unterschiede.png" alt="Unterschied Container vs. Virtuelle Machine">
 
 Container bringen viele Vorteile mit sich, zum einen sind diese sehr Ressourcensparend, wie man aus der oberen Grafik auslessen kann. Zudem sind sie sehr effizient, da sie nur einen Dienst hosten und somit darauf optimiert sein können.
 
-## Meine LB03
-
 ## Befehle
 [Upload]https://github.com/nickegli/Modul_300/blob/master/_LB03/documents/commands.md
 
-## Container erstellen
-Das Dockerfile kann mit dem Befehl `docker build -t websrv-egli .` erstellt werden. Dabei wird das Dockerfile aus dem lokalen Verzeichniss genommen und für die Erstelung des Images verwendet.
+## ContainerImage erstellen
+Das Image kann mit dem Befehl `docker image build -t websrv-egli .` erstellt werden. Dabei wird das Dockerfile aus dem lokalen Verzeichniss genommen und für die Erstellung des Images verwendet.
+
+Nun ist das Image lokal auf meinem Client abgelegt. Da ich dieses auch auf anderen Geräten verwenden möchte, pusche ich dieses noch mit dem Befehl:  
+`docker push websrv-egli`  
+Mit diesem Befehl, pusche ich das Image auf meinen Dockerhub Account.
 
 ## Starten der Umgebung
 
