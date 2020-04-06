@@ -43,6 +43,9 @@ $ docker run --rm -d -P mysql
 ## Monitoring
 Das Monitoring meiner Umgebung habe ich mit CAdvisor von Google gelöst. Diesen Container habe ich ebenfalls in meinem Docker-compose file definiert. Dieser Service sammelt alle Daten meiner Umgebung und nimmt meine Logs auf, damit ich diese dort übersichtlich einsehen kann und ich ein konstantes Monitoring meiner Mikroservices habe.
 
+### notifications
+Die Benachrichtigungen können direkt auf dem C-Advisor eingerichtet werden, falls dies erwünscht ist. Dort werden auch Alerts angezeigt sobald ein gewisser PKI übedrschritten wird. Die aktive Benachrichtigung, sendet ein email an meine Adresse.
+
 ### config
 <img align="center" width="" height="" src="https://github.com/nickegli/Modul_300/blob/master/img/cadvisor-conf2.PNG" alt="Monitoring">
 
