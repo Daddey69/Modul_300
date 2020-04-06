@@ -1,0 +1,23 @@
+version: '3'
+services:
+    
+    # Webserver für das Hosten der Wordpress Seiten
+    httpd:
+        image: httpd
+        container_name: apache2_prod
+        volumes: 
+            - ./apacheconf:/etc/apache2/
+        ports: 
+            - 8080:80           
+        restart: always   
+        networks: 
+            LAN:
+                ipv4_address: 192.168.10.10
+
+# definierung des Netzwerks
+networks: 
+    LAN:
+        ipam:
+            driver: default
+            config:
+                - subnet: 192.168.10.0/24
