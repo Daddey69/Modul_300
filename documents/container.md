@@ -23,7 +23,9 @@ Das Image kann mit dem Befehl `docker image build -t websrv-egli .` erstellt wer
 
 Nun ist das Image lokal auf meinem Client abgelegt. Da ich dieses auch auf anderen Geräten verwenden möchte, pusche ich dieses noch mit dem Befehl:  
 `docker push websrv-egli`  
-Mit diesem Befehl, pusche ich das Image auf meinen Dockerhub Account.
+Mit diesem Befehl, pusche ich das Image auf meinen Dockerhub Account. Hierzu ist jedoch eine Anmeldung mit dem DOcker Account nötig, dies mit dem Befehl:  
+`Docker login`  
+Danach kann man sich auf der Dockerhub Webseite anmelden.
 
 ## Starten der Umgebung
 
