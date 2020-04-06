@@ -27,6 +27,9 @@ Mit diesem Befehl, pusche ich das Image auf meinen Dockerhub Account. Hierzu ist
 `Docker login`  
 Danach kann man sich auf der Dockerhub Webseite anmelden.
 
+<img align="center" width="" height="" src="https://github.com/nickegli/Modul_300/blob/master/img/dockerhub.PNG" alt="Unterschied Container vs. Virtuelle Machine">
+
+
 ## Starten der Umgebung
 
 ## Anweisungen Dockerfile
